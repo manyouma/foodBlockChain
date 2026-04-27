@@ -4,7 +4,6 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsi
 import ShipmentMap from "./ShipmentMap";
 import { useLang } from "./LangContext";
 
-const API = "http://localhost:8000";
 const STAGES = ["farm", "truck", "warehouse", "supermarket"];
 const STAGE_ICONS = { farm: "🌱", truck: "🚚", warehouse: "🏭", supermarket: "🛒" };
 const THRESHOLDS = { temp: 8, co2: 1000, vibration: 1.5 };
@@ -42,9 +41,6 @@ export default function ShipmentTracker({ shipmentId, onBack }) {
   const verifiedCount = readings.filter(r => !!r.recordedBy).length;
   const maxTemp = readings.length ? Math.max(...readings.map(r => r.temperature)) : null;
   const tempOk = maxTemp === null || maxTemp <= THRESHOLDS.temp;
-  const hasAlerts = maxTemp > THRESHOLDS.temp
-    || readings.some(r => r.co2 > THRESHOLDS.co2)
-    || readings.some(r => r.vibration > THRESHOLDS.vibration);
 
   const chartData = readings.map((r, i) => ({
     n: i + 1,

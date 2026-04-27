@@ -4,7 +4,7 @@ import { translations } from "./i18n";
 const LangContext = createContext();
 
 export function LangProvider({ children }) {
-  const [lang, setLang] = useState("en");
+  const [lang, setLang] = useState("zh");
   const t = translations[lang];
   return (
     <LangContext.Provider value={{ lang, setLang, t }}>

@@ -45,6 +45,47 @@ function Inner() {
           : <RecentShipments onSelect={handleSelect} />
         }
       </main>
+
+      <footer className="hl-footer">
+        <div className="hl-footer-inner">
+          <div className="hl-footer-brand">
+            <img src="https://www.hyperledger.org/wp-content/uploads/2018/03/Hyperledger_Fabric_Logo_Color.png"
+              alt="Hyperledger Fabric" className="hl-logo" />
+            <span className="hl-powered">{t.footerPowered}</span>
+          </div>
+          <div className="hl-footer-cards">
+            <div className="hl-card">
+              <span className="hl-card-icon">🔒</span>
+              <div>
+                <div className="hl-card-title">{t.footerImmutable}</div>
+                <div className="hl-card-body">{t.footerImmutableDesc}</div>
+              </div>
+            </div>
+            <div className="hl-card">
+              <span className="hl-card-icon">🏛️</span>
+              <div>
+                <div className="hl-card-title">{t.footerPermissioned}</div>
+                <div className="hl-card-body">{t.footerPermissionedDesc}</div>
+              </div>
+            </div>
+            <div className="hl-card">
+              <span className="hl-card-icon">✅</span>
+              <div>
+                <div className="hl-card-title">{t.footerAudit}</div>
+                <div className="hl-card-body">{t.footerAuditDesc}</div>
+              </div>
+            </div>
+            <div className="hl-card">
+              <span className="hl-card-icon">📡</span>
+              <div>
+                <div className="hl-card-title">{t.footerOffline}</div>
+                <div className="hl-card-body">{t.footerOfflineDesc}</div>
+              </div>
+            </div>
+          </div>
+          <div className="hl-footer-copy">{t.footerCopy}</div>
+        </div>
+      </footer>
     </div>
   );
 }

@@ -3,7 +3,6 @@ import { getShipments, getReadings } from "./api";
 import { useLang } from "./LangContext";
 import LiveActivityMap from "./LiveActivityMap";
 
-const API = "http://localhost:8000";
 const STAGE_ICONS = { farm: "🌱", truck: "🚚", warehouse: "🏭", supermarket: "🛒" };
 const STAGE_KEYS = ["farm", "truck", "warehouse", "supermarket"];
 const THRESHOLDS = { temp: 8, co2: 1000, vibration: 1.5 };
@@ -16,21 +15,6 @@ function getAlerts(readings) {
     if (r.vibration > THRESHOLDS.vibration) a.add("vibration");
   });
   return a;
-}
-
-function parseName(location) {
-  return location ? location.split("::")[0] : "";
-}
-
-// Returns the unique destination locations for a given stage across all shipments
-function destinationsForStage(enriched, stage, t) {
-  const seen = new Set();
-  enriched.forEach(s => {
-    s.readings
-      .filter(r => r.stage === stage)
-      .forEach(r => seen.add(parseName(r.location)));
-  });
-  return [...seen].map(name => ({ name, label: t.locationName(name) }));
 }
 
 
@@ -161,7 +145,7 @@ export default function RecentShipments({ onSelect }) {
                   : <span className="sc-badge sc-badge-ok">{t.coldChainOk}</span>}
               </div>
 
-              <div className="sc-product">{s.product}</div>
+              <div className="sc-product">{t.productName(s.product)}</div>
               <div className="sc-route">
                 <span className="sc-route-from">🌱 {t.locationName(s.origin)}</span>
                 {s.destination && <>
@@ -208,7 +192,7 @@ export default function RecentShipments({ onSelect }) {
               <div className="sc-bottom">
                 <span className="sc-readings">🔗 {t.readingsCount(s.readings.length)}</span>
                 {maxTemp !== null && (
-                  <span className={`sc-maxtemp ${tempOk ? "ok" : "warn"}`}>{maxTemp.toFixed(1)}°C max</span>
+                  <span className={`sc-maxtemp ${tempOk ? "ok" : "warn"}`}>{maxTemp.toFixed(1)}°C {t.maxTemp}</span>
                 )}
               </div>
             </div>
