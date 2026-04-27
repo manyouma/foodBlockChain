@@ -10,27 +10,20 @@ function Inner() {
   const [submitted, setSubmitted] = useState("");
 
   function handleSelect(id) {
-    setShipmentId(id);
     setSubmitted(id);
+    setShipmentId(id);
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   return (
     <div className="app">
-      <header className="header">
-        <span className="logo">🍈 {t.appName}</span>
-        <span className="tagline">{t.tagline}</span>
-        <div className="lang-switch">
-          <button className={`lang-btn ${lang === "en" ? "active" : ""}`} onClick={() => setLang("en")}>EN</button>
-          <button className={`lang-btn ${lang === "zh" ? "active" : ""}`} onClick={() => setLang("zh")}>中文</button>
+      <header className="topbar">
+        <div className="topbar-left">
+          <span className="logo">🍈 {t.appName}</span>
+          <span className="tagline">{t.tagline}</span>
         </div>
-      </header>
-
-      <main>
-        <div className="search-box">
-          <h2>{t.trackTitle}</h2>
-          <p>{t.trackSubtitle}</p>
-          <div className="search-row">
+        <div className="topbar-right">
+          <div className="search-inline">
             <input
               value={shipmentId}
               onChange={e => setShipmentId(e.target.value.toUpperCase())}
@@ -39,10 +32,16 @@ function Inner() {
             />
             <button onClick={() => handleSelect(shipmentId)}>{t.trackButton}</button>
           </div>
+          <div className="lang-switch">
+            <button className={`lang-btn ${lang === "en" ? "active" : ""}`} onClick={() => setLang("en")}>EN</button>
+            <button className={`lang-btn ${lang === "zh" ? "active" : ""}`} onClick={() => setLang("zh")}>中文</button>
+          </div>
         </div>
+      </header>
 
+      <main className="main-content">
         {submitted
-          ? <ShipmentTracker shipmentId={submitted} onBack={() => setSubmitted("")} />
+          ? <ShipmentTracker shipmentId={submitted} onBack={() => { setSubmitted(""); setShipmentId(""); }} />
           : <RecentShipments onSelect={handleSelect} />
         }
       </main>
@@ -51,7 +50,5 @@ function Inner() {
 }
 
 export default function App() {
-  return (
-    <LangProvider><Inner /></LangProvider>
-  );
+  return <LangProvider><Inner /></LangProvider>;
 }

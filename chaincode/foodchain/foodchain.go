@@ -19,8 +19,9 @@ type SensorReading struct {
 	Stage       string  `json:"stage"`
 	Temperature float64 `json:"temperature"` // Celsius
 	Humidity    float64 `json:"humidity"`    // percent
-	CO2         float64 `json:"co2"`         // ppm
-	Vibration   float64 `json:"vibration"`   // g-force
+	CO2         float64 `json:"co2"`
+	Vibration   float64 `json:"vibration"`
+	VehicleID   string  `json:"vehicleId"`
 	Location    string  `json:"location"`
 	RecordedBy  string  `json:"recordedBy"`
 	Timestamp   string  `json:"timestamp"`
@@ -28,14 +29,15 @@ type SensorReading struct {
 
 // A shipment groups all readings for one batch of lychee
 type Shipment struct {
-	ID        string `json:"id"`
-	Product   string `json:"product"`
-	Origin    string `json:"origin"`
-	CreatedAt string `json:"createdAt"`
-	Status    string `json:"status"` // "in_transit", "delivered"
+	ID          string `json:"id"`
+	Product     string `json:"product"`
+	Origin      string `json:"origin"`      // farm the product came from
+	Destination string `json:"destination"` // supermarket/warehouse it is headed to
+	CreatedAt   string `json:"createdAt"`
+	Status      string `json:"status"` // "in_transit", "delivered"
 }
 
-func (s *SmartContract) CreateShipment(ctx contractapi.TransactionContextInterface, id string, product string, origin string) error {
+func (s *SmartContract) CreateShipment(ctx contractapi.TransactionContextInterface, id string, product string, origin string, destination string) error {
 	existing, err := ctx.GetStub().GetState(id)
 	if err != nil {
 		return fmt.Errorf("failed to read state: %v", err)
@@ -45,17 +47,18 @@ func (s *SmartContract) CreateShipment(ctx contractapi.TransactionContextInterfa
 	}
 
 	shipment := Shipment{
-		ID:        id,
-		Product:   product,
-		Origin:    origin,
-		CreatedAt: time.Now().UTC().Format(time.RFC3339),
-		Status:    "in_transit",
+		ID:          id,
+		Product:     product,
+		Origin:      origin,
+		Destination: destination,
+		CreatedAt:   time.Now().UTC().Format(time.RFC3339),
+		Status:      "in_transit",
 	}
 	data, _ := json.Marshal(shipment)
 	return ctx.GetStub().PutState("SHIPMENT_"+id, data)
 }
 
-func (s *SmartContract) RecordReading(ctx contractapi.TransactionContextInterface, id string, shipmentID string, stage string, temperature float64, humidity float64, co2 float64, vibration float64, location string) error {
+func (s *SmartContract) RecordReading(ctx contractapi.TransactionContextInterface, id string, shipmentID string, stage string, temperature float64, humidity float64, co2 float64, vibration float64, vehicleID string, location string) error {
 	mspID, err := ctx.GetClientIdentity().GetMSPID()
 	if err != nil {
 		return fmt.Errorf("failed to get caller identity: %v", err)
@@ -69,6 +72,7 @@ func (s *SmartContract) RecordReading(ctx contractapi.TransactionContextInterfac
 		Humidity:    humidity,
 		CO2:         co2,
 		Vibration:   vibration,
+		VehicleID:   vehicleID,
 		Location:    location,
 		RecordedBy:  mspID,
 		Timestamp:   time.Now().UTC().Format(time.RFC3339),

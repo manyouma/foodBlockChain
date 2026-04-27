@@ -1,0 +1,63 @@
+{
+  "shipments": [
+    {"id":"SHIP011","product":"Lychee","origin":"Maoming Farm, Guangdong","destination":"Vanguard Supermarket Futian","createdAt":"2026-04-27T02:00:00Z","status":"in_transit"},
+    {"id":"SHIP012","product":"Lychee","origin":"Huizhou Farm, Guangdong","destination":"RT-Mart Nanshan","createdAt":"2026-04-27T03:00:00Z","status":"in_transit"},
+    {"id":"SHIP013","product":"Lychee","origin":"Qingyuan Farm, Guangdong","destination":"MixC Mall Shenzhen","createdAt":"2026-04-27T04:00:00Z","status":"in_transit"},
+    {"id":"SHIP014","product":"Lychee","origin":"Zhanjiang Farm, Guangdong","destination":"Guangzhou Cold Storage Hub","createdAt":"2026-04-27T05:00:00Z","status":"in_transit"},
+    {"id":"SHIP004","product":"Lychee","origin":"Shantou Farm, Guangdong","destination":"Vanguard Supermarket Futian","createdAt":"2026-04-27T06:00:00Z","status":"in_transit"},
+    {"id":"SHIP005","product":"Lychee","origin":"Meizhou Farm, Guangdong","destination":"Guangzhou Cold Storage Hub","createdAt":"2026-04-27T07:00:00Z","status":"in_transit"},
+    {"id":"SHIP007","product":"Lychee","origin":"Foshan Farm, Guangdong","destination":"RT-Mart Nanshan","createdAt":"2026-04-27T08:00:00Z","status":"delivered"},
+    {"id":"SHIP008","product":"Lychee","origin":"Huizhou Farm, Guangdong","destination":"MixC Mall Shenzhen","createdAt":"2026-04-27T09:00:00Z","status":"delivered"}
+  ],
+  "readings": {
+    "SHIP011": [
+      {"id":"S11-001","shipmentId":"SHIP011","stage":"farm","temperature":3.8,"humidity":88.5,"co2":411,"vibration":0.04,"vehicleId":"","location":"Maoming Farm::21.6618::110.9253","recordedBy":"Org1MSP","timestamp":"2026-04-27T02:05:00Z"},
+      {"id":"S11-002","shipmentId":"SHIP011","stage":"truck","temperature":4.7,"humidity":85.0,"co2":440,"vibration":0.55,"vehicleId":"粤B-88821","location":"Maoming Highway S71::22.0000::110.9800","recordedBy":"Org1MSP","timestamp":"2026-04-27T04:00:00Z"},
+      {"id":"S11-003","shipmentId":"SHIP011","stage":"truck","temperature":5.1,"humidity":84.2,"co2":445,"vibration":0.61,"vehicleId":"粤B-88821","location":"Yunfu Rest Stop::22.9279::111.6933","recordedBy":"Org1MSP","timestamp":"2026-04-27T06:00:00Z"},
+      {"id":"S11-004","shipmentId":"SHIP011","stage":"warehouse","temperature":2.2,"humidity":91.0,"co2":514,"vibration":0.07,"vehicleId":"","location":"Guangzhou Cold Storage Hub::23.1291::113.2644","recordedBy":"Org2MSP","timestamp":"2026-04-27T10:00:00Z"},
+      {"id":"S11-005","shipmentId":"SHIP011","stage":"truck","temperature":4.5,"humidity":85.2,"co2":439,"vibration":0.53,"vehicleId":"粤A-32209","location":"Guangshen Expressway::22.9000::113.5000","recordedBy":"Org1MSP","timestamp":"2026-04-27T14:00:00Z"},
+      {"id":"S11-006","shipmentId":"SHIP011","stage":"supermarket","temperature":4.0,"humidity":80.2,"co2":458,"vibration":0.10,"vehicleId":"","location":"Vanguard Supermarket Futian::22.5200::114.0580","recordedBy":"Org2MSP","timestamp":"2026-04-27T16:00:00Z"}
+    ],
+    "SHIP012": [
+      {"id":"S12-001","shipmentId":"SHIP012","stage":"farm","temperature":3.9,"humidity":88.0,"co2":412,"vibration":0.04,"vehicleId":"","location":"Huizhou Farm::23.1115::114.4152","recordedBy":"Org1MSP","timestamp":"2026-04-27T03:05:00Z"},
+      {"id":"S12-002","shipmentId":"SHIP012","stage":"truck","temperature":4.8,"humidity":84.5,"co2":443,"vibration":0.60,"vehicleId":"粤C-55610","location":"Huizhou Expressway::22.9500::114.2000","recordedBy":"Org1MSP","timestamp":"2026-04-27T05:00:00Z"},
+      {"id":"S12-003","shipmentId":"SHIP012","stage":"truck","temperature":5.2,"humidity":83.8,"co2":447,"vibration":0.65,"vehicleId":"粤C-55610","location":"Dongguan Checkpoint::22.7500::113.7500","recordedBy":"Org1MSP","timestamp":"2026-04-27T07:00:00Z"}
+    ],
+    "SHIP013": [
+      {"id":"S13-001","shipmentId":"SHIP013","stage":"farm","temperature":3.7,"humidity":89.0,"co2":410,"vibration":0.04,"vehicleId":"","location":"Qingyuan Farm::23.6843::113.0513","recordedBy":"Org1MSP","timestamp":"2026-04-27T04:05:00Z"},
+      {"id":"S13-002","shipmentId":"SHIP013","stage":"truck","temperature":4.9,"humidity":84.0,"co2":442,"vibration":0.58,"vehicleId":"粤B-71133","location":"Guangqing Expressway::23.4000::113.1000","recordedBy":"Org1MSP","timestamp":"2026-04-27T06:00:00Z"},
+      {"id":"S13-003","shipmentId":"SHIP013","stage":"warehouse","temperature":2.1,"humidity":91.3,"co2":511,"vibration":0.07,"vehicleId":"","location":"Shenzhen Distribution Center::22.5431::114.0579","recordedBy":"Org2MSP","timestamp":"2026-04-27T10:00:00Z"},
+      {"id":"S13-004","shipmentId":"SHIP013","stage":"truck","temperature":4.4,"humidity":85.0,"co2":438,"vibration":0.50,"vehicleId":"粤A-19920","location":"Shenzhen Distribution Center::22.5431::114.0579","recordedBy":"Org1MSP","timestamp":"2026-04-27T13:00:00Z"},
+      {"id":"S13-005","shipmentId":"SHIP013","stage":"supermarket","temperature":4.1,"humidity":80.0,"co2":457,"vibration":0.10,"vehicleId":"","location":"MixC Mall Shenzhen::22.5400::114.0550","recordedBy":"Org2MSP","timestamp":"2026-04-27T15:00:00Z"}
+    ],
+    "SHIP014": [
+      {"id":"S14-001","shipmentId":"SHIP014","stage":"farm","temperature":3.6,"humidity":89.5,"co2":409,"vibration":0.03,"vehicleId":"","location":"Zhanjiang Farm::21.1947::110.3934","recordedBy":"Org1MSP","timestamp":"2026-04-27T05:05:00Z"},
+      {"id":"S14-002","shipmentId":"SHIP014","stage":"truck","temperature":4.6,"humidity":85.3,"co2":436,"vibration":0.54,"vehicleId":"粤K-00882","location":"Maoming Highway S71::22.0000::110.9800","recordedBy":"Org1MSP","timestamp":"2026-04-27T08:00:00Z"},
+      {"id":"S14-003","shipmentId":"SHIP014","stage":"warehouse","temperature":2.0,"humidity":92.0,"co2":510,"vibration":0.06,"vehicleId":"","location":"Guangzhou Cold Storage Hub::23.1291::113.2644","recordedBy":"Org2MSP","timestamp":"2026-04-27T12:00:00Z"}
+    ],
+    "SHIP004": [
+      {"id":"R4-001","shipmentId":"SHIP004","stage":"farm","temperature":4.0,"humidity":88.0,"co2":412,"vibration":0.04,"vehicleId":"","location":"Shantou Farm::23.3541::116.6820","recordedBy":"Org1MSP","timestamp":"2026-04-27T06:05:00Z"},
+      {"id":"R4-004","shipmentId":"SHIP004","stage":"truck","temperature":9.4,"humidity":82.0,"co2":442,"vibration":0.52,"vehicleId":"粤D-34421","location":"Jieyang Rest Stop::23.5448::116.3650","recordedBy":"Org1MSP","timestamp":"2026-04-27T09:00:00Z"},
+      {"id":"R4-005","shipmentId":"SHIP004","stage":"truck","temperature":14.8,"humidity":78.0,"co2":451,"vibration":0.61,"vehicleId":"粤D-34421","location":"Chaozhou Interchange::23.6618::116.6220","recordedBy":"Org1MSP","timestamp":"2026-04-27T11:00:00Z"},
+      {"id":"R4-006","shipmentId":"SHIP004","stage":"truck","temperature":18.2,"humidity":74.0,"co2":460,"vibration":0.55,"vehicleId":"粤D-34421","location":"Huizhou Checkpoint::23.1115::114.4152","recordedBy":"Org1MSP","timestamp":"2026-04-27T13:00:00Z"}
+    ],
+    "SHIP005": [
+      {"id":"R5-001","shipmentId":"SHIP005","stage":"farm","temperature":3.9,"humidity":88.5,"co2":410,"vibration":0.04,"vehicleId":"","location":"Meizhou Farm::24.2881::116.1178","recordedBy":"Org1MSP","timestamp":"2026-04-27T07:05:00Z"},
+      {"id":"R5-004","shipmentId":"SHIP005","stage":"warehouse","temperature":2.3,"humidity":91.0,"co2":521,"vibration":0.08,"vehicleId":"","location":"Guangzhou Cold Storage Hub::23.1291::113.2644","recordedBy":"Org2MSP","timestamp":"2026-04-27T12:00:00Z"},
+      {"id":"R5-006","shipmentId":"SHIP005","stage":"warehouse","temperature":2.4,"humidity":91.2,"co2":1240,"vibration":0.08,"vehicleId":"","location":"Guangzhou Cold Storage Hub::23.1291::113.2644","recordedBy":"Org2MSP","timestamp":"2026-04-27T16:00:00Z"},
+      {"id":"R5-007","shipmentId":"SHIP005","stage":"warehouse","temperature":2.6,"humidity":90.8,"co2":1580,"vibration":0.09,"vehicleId":"","location":"Guangzhou Cold Storage Hub::23.1291::113.2644","recordedBy":"Org2MSP","timestamp":"2026-04-27T18:00:00Z"}
+    ],
+    "SHIP007": [
+      {"id":"R7-001","shipmentId":"SHIP007","stage":"farm","temperature":4.1,"humidity":87.8,"co2":413,"vibration":0.05,"vehicleId":"","location":"Foshan Farm::23.0218::113.1219","recordedBy":"Org1MSP","timestamp":"2026-04-27T08:05:00Z"},
+      {"id":"R7-003","shipmentId":"SHIP007","stage":"truck","temperature":5.4,"humidity":83.8,"co2":446,"vibration":1.82,"vehicleId":"粤F-55231","location":"Nansha Bridge::22.8000::113.5500","recordedBy":"Org1MSP","timestamp":"2026-04-27T11:00:00Z"},
+      {"id":"R7-005","shipmentId":"SHIP007","stage":"truck","temperature":4.9,"humidity":84.3,"co2":441,"vibration":3.10,"vehicleId":"粤F-55231","location":"Dongguan Bumpy Section::22.7500::113.7500","recordedBy":"Org1MSP","timestamp":"2026-04-27T13:00:00Z"},
+      {"id":"R7-008","shipmentId":"SHIP007","stage":"supermarket","temperature":4.1,"humidity":80.5,"co2":459,"vibration":0.11,"vehicleId":"","location":"RT-Mart Nanshan::22.5300::113.9300","recordedBy":"Org2MSP","timestamp":"2026-04-27T16:00:00Z"}
+    ],
+    "SHIP008": [
+      {"id":"R8-001","shipmentId":"SHIP008","stage":"farm","temperature":3.7,"humidity":89.2,"co2":410,"vibration":0.04,"vehicleId":"","location":"Huizhou Farm::23.1115::114.4152","recordedBy":"Org1MSP","timestamp":"2026-04-27T09:05:00Z"},
+      {"id":"R8-003","shipmentId":"SHIP008","stage":"truck","temperature":4.5,"humidity":85.8,"co2":437,"vibration":0.50,"vehicleId":"粤G-12345","location":"Huizhou Expressway::22.9500::114.2000","recordedBy":"Org1MSP","timestamp":"2026-04-27T12:00:00Z"},
+      {"id":"R8-005","shipmentId":"SHIP008","stage":"warehouse","temperature":2.1,"humidity":91.4,"co2":511,"vibration":0.07,"vehicleId":"","location":"Shenzhen Distribution Center::22.5431::114.0579","recordedBy":"Org2MSP","timestamp":"2026-04-27T15:00:00Z"},
+      {"id":"R8-007","shipmentId":"SHIP008","stage":"supermarket","temperature":3.9,"humidity":81.0,"co2":457,"vibration":0.10,"vehicleId":"","location":"MixC Mall Shenzhen::22.5400::114.0550","recordedBy":"Org2MSP","timestamp":"2026-04-27T18:00:00Z"}
+    ]
+  }
+}

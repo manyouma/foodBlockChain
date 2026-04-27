@@ -53,16 +53,16 @@ def _query(function: str, args: list[str]) -> dict | list:
     return json.loads(result.stdout.strip())
 
 
-def create_shipment(shipment_id: str, product: str, origin: str) -> dict:
-    return _invoke("CreateShipment", [shipment_id, product, origin])
+def create_shipment(shipment_id: str, product: str, origin: str, destination: str = "") -> dict:
+    return _invoke("CreateShipment", [shipment_id, product, origin, destination])
 
 
 def record_reading(reading_id: str, shipment_id: str, stage: str,
                    temperature: float, humidity: float, co2: float,
-                   vibration: float, location: str) -> dict:
+                   vibration: float, vehicle_id: str, location: str) -> dict:
     return _invoke("RecordReading", [
         reading_id, shipment_id, stage,
-        str(temperature), str(humidity), str(co2), str(vibration), location,
+        str(temperature), str(humidity), str(co2), str(vibration), vehicle_id, location,
     ])
 
 

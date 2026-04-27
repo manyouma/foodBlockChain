@@ -21,6 +21,7 @@ edge_db.init_db()
 class ShipmentRequest(BaseModel):
     product: str
     origin: str
+    destination: str = ""
 
 class ReadingRequest(BaseModel):
     shipment_id: str
@@ -29,6 +30,7 @@ class ReadingRequest(BaseModel):
     humidity: float
     co2: float = 400.0
     vibration: float = 0.0
+    vehicle_id: str = ""
     location: str
     offline: bool = False
 
@@ -46,7 +48,7 @@ def list_shipments():
 @app.post("/shipment/{shipment_id}")
 def create_shipment(shipment_id: str, req: ShipmentRequest):
     try:
-        return fabric.create_shipment(shipment_id, req.product, req.origin)
+        return fabric.create_shipment(shipment_id, req.product, req.origin, req.destination)
     except RuntimeError as e:
         raise HTTPException(status_code=500, detail=str(e))
 
@@ -82,7 +84,8 @@ def record_reading(req: ReadingRequest):
         reading_id = f"READ-{uuid.uuid4().hex[:8].upper()}"
         return fabric.record_reading(
             reading_id, req.shipment_id, req.stage,
-            req.temperature, req.humidity, req.co2, req.vibration, req.location,
+            req.temperature, req.humidity, req.co2, req.vibration,
+            req.vehicle_id, req.location,
         )
     except RuntimeError as e:
         raise HTTPException(status_code=500, detail=str(e))
@@ -98,7 +101,8 @@ def sync_offline_readings():
         try:
             fabric.record_reading(
                 r["id"], r["shipment_id"], r["stage"],
-                r["temperature"], r["humidity"], r["co2"], r["vibration"], r["location"],
+                r["temperature"], r["humidity"], r["co2"], r["vibration"],
+                r.get("vehicle_id", ""), r["location"],
             )
             edge_db.mark_synced(r["id"])
             synced.append(r["id"])

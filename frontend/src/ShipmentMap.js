@@ -39,7 +39,7 @@ function ReadingPopup({ p, t }) {
       </div>
       <table className="popup-table">
         <tbody>
-          <tr><td>📍</td><td>{p.name}</td></tr>
+          <tr><td>📍</td><td>{t?.locationName ? t.locationName(p.name) : p.name}</td></tr>
           <tr><td>🌡</td><td>{p.temperature}°C</td></tr>
           <tr><td>💧</td><td>{p.humidity}%</td></tr>
           {p.co2 != null && <tr><td>🌿</td><td>{p.co2} ppm CO₂</td></tr>}
@@ -120,13 +120,9 @@ export default function ShipmentMap({ readings, t }) {
         {Object.entries(STAGE_COLORS).map(([stage, color]) => (
           <span key={stage} className="legend-item">
             <span className="legend-dot" style={{ background: color }} />
-            {STAGE_ICONS[stage]} {t?.stageLabels?.[stage] || stage}
+            {t?.stageLabels?.[stage] || stage}
           </span>
         ))}
-        <span className="legend-item">
-          <span className="legend-dot" style={{ background: "#fff", border: "2px solid #48bb78" }} />
-          {t?.popupVerified || "Blockchain verified"}
-        </span>
       </div>
     </div>
   );
