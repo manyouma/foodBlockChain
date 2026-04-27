@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/foodBlockChain/static/css/main.4d0e9437.css",
-    "main.js": "/foodBlockChain/static/js/main.a342a12e.js",
+    "main.css": "/foodBlockChain/static/css/main.7b675392.css",
+    "main.js": "/foodBlockChain/static/js/main.5c5eebcc.js",
     "static/js/453.64aababc.chunk.js": "/foodBlockChain/static/js/453.64aababc.chunk.js",
     "index.html": "/foodBlockChain/index.html",
-    "main.4d0e9437.css.map": "/foodBlockChain/static/css/main.4d0e9437.css.map",
-    "main.a342a12e.js.map": "/foodBlockChain/static/js/main.a342a12e.js.map",
+    "main.7b675392.css.map": "/foodBlockChain/static/css/main.7b675392.css.map",
+    "main.5c5eebcc.js.map": "/foodBlockChain/static/js/main.5c5eebcc.js.map",
     "453.64aababc.chunk.js.map": "/foodBlockChain/static/js/453.64aababc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d0e9437.css",
-    "static/js/main.a342a12e.js"
+    "static/css/main.7b675392.css",
+    "static/js/main.5c5eebcc.js"
   ]
 }
