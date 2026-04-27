@@ -65,7 +65,7 @@ export default function ShipmentTracker({ shipmentId, onBack }) {
       {/* Title row */}
       <div className="tracker-title-row">
         <div>
-          <h2 className="tracker-title">{shipment.product} — {shipmentId}</h2>
+          <h2 className="tracker-title">{t.productName(shipment.product)} — {shipmentId}</h2>
           <p className="tracker-sub">
         🌱 {t.locationName(shipment.origin)}
         {shipment.destination && <> <span style={{color:"#cbd5e1"}}>→</span> 🏪 {t.locationName(shipment.destination)}</>}
@@ -82,12 +82,12 @@ export default function ShipmentTracker({ shipmentId, onBack }) {
 
       {/* KPI strip */}
       <div className="tracker-kpis">
-        <div className="tkpi"><span className="tkpi-v">{maxTemp !== null ? maxTemp.toFixed(1) + "°C" : "—"}</span><span className="tkpi-l">Max Temp</span></div>
-        <div className="tkpi"><span className="tkpi-v">{statVal(readings, "humidity", vals => Math.max(...vals))}%</span><span className="tkpi-l">Max Humidity</span></div>
-        <div className="tkpi"><span className="tkpi-v">{statVal(readings, "co2", vals => Math.max(...vals))}</span><span className="tkpi-l">Max CO₂ ppm</span></div>
-        <div className="tkpi"><span className="tkpi-v">{statVal(readings, "vibration", vals => Math.max(...vals))}g</span><span className="tkpi-l">Max Vibration</span></div>
-        <div className="tkpi"><span className="tkpi-v">{readings.length}</span><span className="tkpi-l">{t.readingsCount(readings.length).replace(readings.length + " ", "").replace(readings.length + "条", "条")}</span></div>
-        <div className="tkpi"><span className="tkpi-v">{stagesReached.length}/4</span><span className="tkpi-l">Stages</span></div>
+        <div className="tkpi"><span className="tkpi-v">{maxTemp !== null ? maxTemp.toFixed(1) + "°C" : "—"}</span><span className="tkpi-l">{t.kpiMaxTemp}</span></div>
+        <div className="tkpi"><span className="tkpi-v">{statVal(readings, "humidity", vals => Math.max(...vals))}%</span><span className="tkpi-l">{t.kpiMaxHumidity}</span></div>
+        <div className="tkpi"><span className="tkpi-v">{statVal(readings, "co2", vals => Math.max(...vals))}</span><span className="tkpi-l">{t.kpiMaxCO2}</span></div>
+        <div className="tkpi"><span className="tkpi-v">{statVal(readings, "vibration", vals => Math.max(...vals))}g</span><span className="tkpi-l">{t.kpiMaxVibration}</span></div>
+        <div className="tkpi"><span className="tkpi-v">{readings.length}</span><span className="tkpi-l">{t.kpiReadings}</span></div>
+        <div className="tkpi"><span className="tkpi-v">{stagesReached.length}/4</span><span className="tkpi-l">{t.kpiStages}</span></div>
       </div>
 
       {/* Journey bar */}
@@ -123,8 +123,8 @@ export default function ShipmentTracker({ shipmentId, onBack }) {
                 <YAxis tick={{ fontSize: 11 }} />
                 <Tooltip labelFormatter={(_, p) => p?.[0]?.payload?.stage || ""} />
                 <Legend iconSize={10} wrapperStyle={{ fontSize: 11 }} />
-                <Line type="monotone" dataKey="Temp" stroke="#ef4444" strokeWidth={2} dot={false} />
-                <Line type="monotone" dataKey="Humidity" stroke="#3b82f6" strokeWidth={2} dot={false} />
+                <Line type="monotone" dataKey="Temp" name={t.chartTemp} stroke="#ef4444" strokeWidth={2} dot={false} />
+                <Line type="monotone" dataKey="Humidity" name={t.chartHumidity} stroke="#3b82f6" strokeWidth={2} dot={false} />
               </LineChart>
             </ResponsiveContainer>
           </div>
@@ -139,8 +139,8 @@ export default function ShipmentTracker({ shipmentId, onBack }) {
                 <YAxis yAxisId="vib" orientation="right" tick={{ fontSize: 11 }} />
                 <Tooltip labelFormatter={(_, p) => p?.[0]?.payload?.stage || ""} />
                 <Legend iconSize={10} wrapperStyle={{ fontSize: 11 }} />
-                <Line yAxisId="co2" type="monotone" dataKey="CO2" stroke="#f59e0b" strokeWidth={2} dot={false} />
-                <Line yAxisId="vib" type="monotone" dataKey="Vibration" stroke="#8b5cf6" strokeWidth={2} dot={false} />
+                <Line yAxisId="co2" type="monotone" dataKey="CO2" name={t.chartCO2} stroke="#f59e0b" strokeWidth={2} dot={false} />
+                <Line yAxisId="vib" type="monotone" dataKey="Vibration" name={t.chartVibration} stroke="#8b5cf6" strokeWidth={2} dot={false} />
               </LineChart>
             </ResponsiveContainer>
           </div>
