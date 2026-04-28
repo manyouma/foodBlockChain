@@ -126,7 +126,9 @@
         "vehicleId": "粤A-12305",
         "location": "Guangdong Highway::23.5000::113.5000",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:00Z"
+        "timestamp": "2026-04-28T13:23:27Z",
+        "txId": "c8aaa1d2a688589b8aac52b7a1e3d886102199e160ba066c27ce7a5769eacb7d",
+        "blockNumber": 0
       },
       {
         "id": "R1-003",
@@ -139,7 +141,9 @@
         "vehicleId": "",
         "location": "Guangzhou Cold Storage Hub::23.1291::113.2644",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:34:09Z"
+        "timestamp": "2026-04-28T13:23:28Z",
+        "txId": "88532b9982675b4984bb2d460e2e9be080cc1cb91ba1863545c46b2be444594b",
+        "blockNumber": 0
       },
       {
         "id": "R1-004",
@@ -152,7 +156,9 @@
         "vehicleId": "",
         "location": "Guangzhou Cold Storage Hub::23.1291::113.2644",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:34:10Z"
+        "timestamp": "2026-04-28T13:23:29Z",
+        "txId": "527a3c9adb59ce1ac28efffaef814f7e7a114369736c469e58d3c431482b97f1",
+        "blockNumber": 0
       },
       {
         "id": "R1-005",
@@ -165,7 +171,9 @@
         "vehicleId": "粤A-12305",
         "location": "Shenzhen North::22.6273::114.0579",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:01Z"
+        "timestamp": "2026-04-28T13:23:29Z",
+        "txId": "cd350ae6900867a27247e4daac07e66a0ca2afc5ed8fc71887a9d67f15ecb77e",
+        "blockNumber": 0
       },
       {
         "id": "R1-006",
@@ -178,7 +186,9 @@
         "vehicleId": "",
         "location": "Vanguard Supermarket Futian::22.5200::114.0580",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:34:12Z"
+        "timestamp": "2026-04-28T13:23:30Z",
+        "txId": "49ef5bd835f4c0403deb016a1800e53bd5368189f5c6f55b4a0bbc519db9e1ca",
+        "blockNumber": 0
       },
       {
         "id": "READ001",
@@ -191,7 +201,9 @@
         "vehicleId": "",
         "location": "Guangdong Farm",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T18:09:28Z"
+        "timestamp": "2026-04-28T13:23:31Z",
+        "txId": "a6ef37aff77f5e5b40fd17e1c06b7846bffe6c912a2ca47ddda433b558677855",
+        "blockNumber": 0
       }
     ],
     "SHIP002": [
@@ -206,7 +218,9 @@
         "vehicleId": "",
         "location": "Maoming Farm::21.6618::110.9253",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:33:50Z"
+        "timestamp": "2026-04-28T13:23:31Z",
+        "txId": "d415e25fc239b970ad4d51705827cd63dec8cab270d56a77a13cd3e5877d66f0",
+        "blockNumber": 0
       },
       {
         "id": "R2-002",
@@ -219,7 +233,9 @@
         "vehicleId": "",
         "location": "Maoming Farm::21.6618::110.9253",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:33:51Z"
+        "timestamp": "2026-04-28T13:23:32Z",
+        "txId": "1d1999ed9e06f50d509497c767e4895f08bb47049a4e9513b68996817cb03004",
+        "blockNumber": 0
       },
       {
         "id": "R2-003",
@@ -232,7 +248,9 @@
         "vehicleId": "",
         "location": "Maoming Packing House::21.6750::110.9400",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:33:52Z"
+        "timestamp": "2026-04-28T13:23:33Z",
+        "txId": "df19fb5cb77dfefc6c8f22752a11dab174f67a13c6ed73d57f1aa9ff9b560ee5",
+        "blockNumber": 0
       },
       {
         "id": "R2-004",
@@ -245,7 +263,9 @@
         "vehicleId": "粤B-55512",
         "location": "Maoming Highway S71::22.0000::110.9800",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:01Z"
+        "timestamp": "2026-04-28T13:23:34Z",
+        "txId": "48db1084d0e56de8838e5306d5d3ea003e483a97cc1b796e0037e6fe0b077d33",
+        "blockNumber": 0
       },
       {
         "id": "R2-005",
@@ -258,7 +278,9 @@
         "vehicleId": "粤B-55512",
         "location": "Yunfu Rest Stop::22.9279::111.6933",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:02Z"
+        "timestamp": "2026-04-28T13:23:34Z",
+        "txId": "fbd2f31768a4d879cb38653700a572e40ed0fb98086143b5f33b1a13912ffcd5",
+        "blockNumber": 0
       },
       {
         "id": "R2-006",
@@ -271,7 +293,9 @@
         "vehicleId": "粤B-55512",
         "location": "Foshan Interchange::23.0218::113.1219",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:03Z"
+        "timestamp": "2026-04-28T13:23:35Z",
+        "txId": "73a14a7d9387fcabdb1ed19aa105c9498cc5a6ce4a5fcbbc28739e67853a68be",
+        "blockNumber": 0
       },
       {
         "id": "R2-007",
@@ -284,7 +308,9 @@
         "vehicleId": "粤B-55512",
         "location": "Guangzhou Ring Road::23.1291::113.2644",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:04Z"
+        "timestamp": "2026-04-28T13:23:36Z",
+        "txId": "6a3e5de72805def8850dcf3013021de79042c9b092db3970efcb163f34f74895",
+        "blockNumber": 0
       },
       {
         "id": "R2-008",
@@ -297,7 +323,9 @@
         "vehicleId": "",
         "location": "Guangzhou Cold Storage Hub::23.1291::113.2644",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:33:57Z"
+        "timestamp": "2026-04-28T13:23:36Z",
+        "txId": "1f77548781339b4ebf847c2abe27b6e5905e7b0d2cf9a2b9e12abd95a6aa4c29",
+        "blockNumber": 0
       },
       {
         "id": "R2-009",
@@ -310,7 +338,9 @@
         "vehicleId": "",
         "location": "Guangzhou Cold Storage Hub::23.1291::113.2644",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:33:58Z"
+        "timestamp": "2026-04-28T13:23:37Z",
+        "txId": "66fdef524792f628e39063d6cc6a0eabee490fd07b296fc57e38f78ffa8122a0",
+        "blockNumber": 0
       },
       {
         "id": "R2-010",
@@ -323,7 +353,9 @@
         "vehicleId": "",
         "location": "Guangzhou Cold Storage Hub::23.1291::113.2644",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:33:59Z"
+        "timestamp": "2026-04-28T13:23:38Z",
+        "txId": "d4a4dde49466c8d38a4fef4c80611d7043c56c6b15a45e877ac4e15cb100df89",
+        "blockNumber": 0
       },
       {
         "id": "R2-011",
@@ -336,7 +368,9 @@
         "vehicleId": "粤B-55512",
         "location": "Guangshen Expressway::22.9000::113.5000",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:05Z"
+        "timestamp": "2026-04-28T13:23:39Z",
+        "txId": "27073dd5ccbb193ddf8a6e4e8ac9b63fe77164ccab818d2d1f7276f6d7a8ab83",
+        "blockNumber": 0
       },
       {
         "id": "R2-012",
@@ -349,7 +383,9 @@
         "vehicleId": "粤B-55512",
         "location": "Dongguan Checkpoint::22.7500::113.7500",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:06Z"
+        "timestamp": "2026-04-28T13:23:39Z",
+        "txId": "c4bc5271b7dff82dd6f0ec2c504273ebfdf7cd5393a5166170712cde01c5bee7",
+        "blockNumber": 0
       },
       {
         "id": "R2-013",
@@ -362,7 +398,9 @@
         "vehicleId": "粤B-55512",
         "location": "Shenzhen North::22.6273::114.0579",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:07Z"
+        "timestamp": "2026-04-28T13:23:40Z",
+        "txId": "908f2c316beb1968450dd9dca53957260ace5835038218872c1137e774b5ca87",
+        "blockNumber": 0
       },
       {
         "id": "R2-014",
@@ -375,7 +413,9 @@
         "vehicleId": "",
         "location": "Shenzhen Distribution Center::22.5431::114.0579",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:34:04Z"
+        "timestamp": "2026-04-28T13:23:41Z",
+        "txId": "3206be60e962fa984a86c6498722f2531ec3f35554eb77e457c492a56d986876",
+        "blockNumber": 0
       },
       {
         "id": "R2-015",
@@ -388,7 +428,9 @@
         "vehicleId": "",
         "location": "Shenzhen Distribution Center::22.5431::114.0579",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:34:05Z"
+        "timestamp": "2026-04-28T13:23:41Z",
+        "txId": "f8daaaa39cff304db4643708bfe2d537ebd23c8dac3e0e7e836e4314771d0212",
+        "blockNumber": 0
       },
       {
         "id": "R2-016",
@@ -401,7 +443,9 @@
         "vehicleId": "",
         "location": "Vanguard Supermarket Futian::22.5200::114.0580",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:34:06Z"
+        "timestamp": "2026-04-28T13:23:42Z",
+        "txId": "649a147ca149a15a9980bcbebea07f3cafbf9db931f0fa96aa531ec3311d7379",
+        "blockNumber": 0
       },
       {
         "id": "R2-017",
@@ -414,7 +458,9 @@
         "vehicleId": "",
         "location": "Vanguard Supermarket Futian::22.5200::114.0580",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:34:07Z"
+        "timestamp": "2026-04-28T13:23:43Z",
+        "txId": "d4d476ed283cde79cbf662dafd99e849b8726d34f4da2b57fb3a3392ad45e8f9",
+        "blockNumber": 0
       }
     ],
     "SHIP003": [
@@ -429,7 +475,9 @@
         "vehicleId": "",
         "location": "Zhanjiang Farm::21.1947::110.3934",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:46:33Z"
+        "timestamp": "2026-04-28T13:23:44Z",
+        "txId": "1a4742acbee70a7eef4cc2ab035decbdbcd9c46c866e91ef82d66359161383cf",
+        "blockNumber": 0
       },
       {
         "id": "R3-002",
@@ -442,7 +490,9 @@
         "vehicleId": "",
         "location": "Zhanjiang Farm::21.1947::110.3934",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:46:34Z"
+        "timestamp": "2026-04-28T13:23:44Z",
+        "txId": "90bcf30badf8efa7c55fd6532dc8263ab97b10f676144af32f83423595e6ca63",
+        "blockNumber": 0
       },
       {
         "id": "R3-003",
@@ -455,7 +505,9 @@
         "vehicleId": "",
         "location": "Zhanjiang Packing House::21.2050::110.4100",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:46:35Z"
+        "timestamp": "2026-04-28T13:23:45Z",
+        "txId": "0170a0a2c67e80a4738174cf3bb027669dbbb7b5459e29713c4c46ea8629c8a5",
+        "blockNumber": 0
       }
     ],
     "SHIP004": [
@@ -470,7 +522,9 @@
         "vehicleId": "",
         "location": "Shantou Farm::23.3541::116.6820",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:46:37Z"
+        "timestamp": "2026-04-28T13:23:46Z",
+        "txId": "e2761228ee087819e87cab2ab4ed1c3509f0b94783811e47fbc363572730c827",
+        "blockNumber": 0
       },
       {
         "id": "R4-002",
@@ -483,7 +537,9 @@
         "vehicleId": "",
         "location": "Shantou Packing::23.3600::116.6900",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:46:38Z"
+        "timestamp": "2026-04-28T13:23:47Z",
+        "txId": "94da30e104496d9f98cee05a39cb4f40abd5b358379c14926522035bbc2c0cb5",
+        "blockNumber": 0
       },
       {
         "id": "R4-003",
@@ -496,7 +552,9 @@
         "vehicleId": "粤D-77301",
         "location": "Shantou Highway G15::23.5000::116.5000",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:08Z"
+        "timestamp": "2026-04-28T13:23:47Z",
+        "txId": "e8278e806afb7756c8ee31277b8cd0a58d9c09c7c573688c5a8efe2e858452b2",
+        "blockNumber": 0
       },
       {
         "id": "R4-004",
@@ -509,7 +567,9 @@
         "vehicleId": "粤D-77301",
         "location": "Jieyang Rest Stop::23.5448::116.3650",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:09Z"
+        "timestamp": "2026-04-28T13:23:48Z",
+        "txId": "45608cba55aec4edf89acfd539eb734097bd424956c3965329556529e3e258fc",
+        "blockNumber": 0
       },
       {
         "id": "R4-005",
@@ -522,7 +582,9 @@
         "vehicleId": "粤D-77301",
         "location": "Chaozhou Interchange::23.6618::116.6220",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:09Z"
+        "timestamp": "2026-04-28T13:23:49Z",
+        "txId": "f8079a73cfa941179163c9b99afde25e53c4ddf374d3ccfe002036b01aeda1bc",
+        "blockNumber": 0
       },
       {
         "id": "R4-006",
@@ -535,7 +597,9 @@
         "vehicleId": "粤D-77301",
         "location": "Huizhou Checkpoint::23.1115::114.4152",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:10Z"
+        "timestamp": "2026-04-28T13:23:49Z",
+        "txId": "eb2d28b8b6164d19b244f7b1565512448bc2b4e444d42cbc0f3948dd82da144a",
+        "blockNumber": 0
       },
       {
         "id": "R4-007",
@@ -548,7 +612,9 @@
         "vehicleId": "粤D-77301",
         "location": "Dongguan Checkpoint::22.7500::113.7500",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:11Z"
+        "timestamp": "2026-04-28T13:23:50Z",
+        "txId": "41721fddd9a1c8ae51e7d266e4146e0f14284a9a18f6415cb2d155e732e56196",
+        "blockNumber": 0
       }
     ],
     "SHIP005": [
@@ -563,7 +629,9 @@
         "vehicleId": "",
         "location": "Meizhou Farm::24.2881::116.1178",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:46:46Z"
+        "timestamp": "2026-04-28T13:23:51Z",
+        "txId": "793bb97e287b052472e1eaeee509e90520ac62ee88bafb935037e29ec5363379",
+        "blockNumber": 0
       },
       {
         "id": "R5-002",
@@ -576,7 +644,9 @@
         "vehicleId": "粤M-44208",
         "location": "Meizhou Highway::24.0000::115.8000",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:12Z"
+        "timestamp": "2026-04-28T13:23:52Z",
+        "txId": "e8162bb066218ea41c629ab91690a7a5c6274569bfd321396395332508eda2cc",
+        "blockNumber": 0
       },
       {
         "id": "R5-003",
@@ -589,7 +659,9 @@
         "vehicleId": "粤M-44208",
         "location": "Heyuan Interchange::23.7292::114.6982",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:13Z"
+        "timestamp": "2026-04-28T13:23:52Z",
+        "txId": "b86112c0866e7f22fbdc50a506e960cbbdd206905da3b47afc531f428c350279",
+        "blockNumber": 0
       },
       {
         "id": "R5-004",
@@ -602,7 +674,9 @@
         "vehicleId": "",
         "location": "Guangzhou Cold Storage Hub::23.1291::113.2644",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:46:49Z"
+        "timestamp": "2026-04-28T13:23:53Z",
+        "txId": "9f426a0ca99b88d3757fa5b1a70d7745b97804bc506550234310cf34ad856384",
+        "blockNumber": 0
       },
       {
         "id": "R5-005",
@@ -615,7 +689,9 @@
         "vehicleId": "",
         "location": "Guangzhou Cold Storage Hub::23.1291::113.2644",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:46:50Z"
+        "timestamp": "2026-04-28T13:23:54Z",
+        "txId": "d8d6685666ac1912581536a8e1eda5cae86fc337045f73aeda0dcfd07187ca92",
+        "blockNumber": 0
       },
       {
         "id": "R5-006",
@@ -628,7 +704,9 @@
         "vehicleId": "",
         "location": "Guangzhou Cold Storage Hub::23.1291::113.2644",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:46:51Z"
+        "timestamp": "2026-04-28T13:23:55Z",
+        "txId": "9a3c1b9b605dd49ca0f57b30f14a6f2cca2266636935c41ec64ed9785002cff6",
+        "blockNumber": 0
       },
       {
         "id": "R5-007",
@@ -641,7 +719,9 @@
         "vehicleId": "",
         "location": "Guangzhou Cold Storage Hub::23.1291::113.2644",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:46:52Z"
+        "timestamp": "2026-04-28T13:23:55Z",
+        "txId": "f83b589c084d2cc14589ff1511180eac54dd07cc069a3ead983d5387fe52ae00",
+        "blockNumber": 0
       }
     ],
     "SHIP006": [
@@ -656,7 +736,9 @@
         "vehicleId": "",
         "location": "Qingyuan Farm::23.6843::113.0513",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:46:54Z"
+        "timestamp": "2026-04-28T13:23:56Z",
+        "txId": "288915a2a9f0ec006b4f6c9a68ad320ee0d6c3369c8adb534dacefeb64234251",
+        "blockNumber": 0
       },
       {
         "id": "R6-002",
@@ -669,7 +751,9 @@
         "vehicleId": "粤B-91642",
         "location": "Guangqing Expressway::23.4000::113.1000",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:14Z"
+        "timestamp": "2026-04-28T13:23:57Z",
+        "txId": "fdfc0b5a8b604b2155ccb7661b124cc7a65793ca01d45a799ddb3ef2092f139e",
+        "blockNumber": 0
       },
       {
         "id": "R6-003",
@@ -682,7 +766,9 @@
         "vehicleId": "粤B-91642",
         "location": "Guangzhou North Bypass::23.3000::113.2000",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:15Z"
+        "timestamp": "2026-04-28T13:23:57Z",
+        "txId": "00b1d8bd294b6fd6411ee99984f28460843cb26e343fdf3d2e788b819b4c2e9a",
+        "blockNumber": 0
       },
       {
         "id": "R6-004",
@@ -695,7 +781,9 @@
         "vehicleId": "",
         "location": "Shenzhen Distribution Center::22.5431::114.0579",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:46:58Z"
+        "timestamp": "2026-04-28T13:23:58Z",
+        "txId": "d9532bf66bc602bbb2b11ac5e10e55cd402f0a8d6adf5f79bfc879d893ab4fb8",
+        "blockNumber": 0
       },
       {
         "id": "R6-005",
@@ -708,7 +796,9 @@
         "vehicleId": "",
         "location": "Shenzhen Distribution Center::22.5431::114.0579",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:46:59Z"
+        "timestamp": "2026-04-28T13:23:59Z",
+        "txId": "84f4c93727991b9f0d995041a9cccd08ba43eebb4302f132f6068c48f890395a",
+        "blockNumber": 0
       },
       {
         "id": "R6-006",
@@ -721,7 +811,9 @@
         "vehicleId": "",
         "location": "Shenzhen Distribution Center::22.5431::114.0579",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:47:00Z"
+        "timestamp": "2026-04-28T13:24:00Z",
+        "txId": "ac5c8ee764b1516aaea3072643db47e5850130bc29fdc17bc2e8debe0d0072e3",
+        "blockNumber": 0
       }
     ],
     "SHIP007": [
@@ -736,7 +828,9 @@
         "vehicleId": "",
         "location": "Foshan Farm::23.0218::113.1219",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:47:02Z"
+        "timestamp": "2026-04-28T13:24:00Z",
+        "txId": "2a8fc80175a652b55bc8ca62ec8d9906cf46d14a5f9620de6ff47b36e35b139e",
+        "blockNumber": 0
       },
       {
         "id": "R7-002",
@@ -749,7 +843,9 @@
         "vehicleId": "粤A-28819",
         "location": "Guangfo Expressway::22.9000::113.2000",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:16Z"
+        "timestamp": "2026-04-28T13:24:01Z",
+        "txId": "625763645318ed24753a09914e07b0e956e63ec223d0a70802ebe44577c99eee",
+        "blockNumber": 0
       },
       {
         "id": "R7-003",
@@ -762,7 +858,9 @@
         "vehicleId": "粤A-28819",
         "location": "Nansha Bridge::22.8000::113.5500",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:17Z"
+        "timestamp": "2026-04-28T13:24:02Z",
+        "txId": "e7905f4862c4917171fd32a8a774e76c0c6cd9f595bc6e749201ef7997678abb",
+        "blockNumber": 0
       },
       {
         "id": "R7-004",
@@ -775,7 +873,9 @@
         "vehicleId": "粤A-28819",
         "location": "Humen Bridge::22.7800::113.6700",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:17Z"
+        "timestamp": "2026-04-28T13:24:03Z",
+        "txId": "6a9c66e8f446328970e3a8f67b9410415a1bff1d85ce5698df16052721f92c26",
+        "blockNumber": 0
       },
       {
         "id": "R7-005",
@@ -788,7 +888,9 @@
         "vehicleId": "粤A-28819",
         "location": "Dongguan Bumpy Section::22.7500::113.7500",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:18Z"
+        "timestamp": "2026-04-28T13:24:03Z",
+        "txId": "716249cd3376b854b9aae8f2ed6843ce0480bfa9868edacc98ad6fa4b273dde1",
+        "blockNumber": 0
       },
       {
         "id": "R7-006",
@@ -801,7 +903,9 @@
         "vehicleId": "粤A-28819",
         "location": "Shenzhen Border::22.6500::114.0000",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:19Z"
+        "timestamp": "2026-04-28T13:24:04Z",
+        "txId": "aacacf7d79c34511a3232adcb6f839bd93cd7aeea2efa295e3faeb70f3f094ec",
+        "blockNumber": 0
       },
       {
         "id": "R7-007",
@@ -814,7 +918,9 @@
         "vehicleId": "",
         "location": "Shenzhen Distribution Center::22.5431::114.0579",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:47:08Z"
+        "timestamp": "2026-04-28T13:24:05Z",
+        "txId": "9d46b9a4a10dbb3776ce990dfae927a50d2480c344b576946f1a7b5817cf2179",
+        "blockNumber": 0
       },
       {
         "id": "R7-008",
@@ -827,7 +933,9 @@
         "vehicleId": "",
         "location": "RT-Mart Nanshan::22.5300::113.9300",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:47:10Z"
+        "timestamp": "2026-04-28T13:24:05Z",
+        "txId": "60e2d27ef94ea242c2d6e1dad6a90de9b11eb85dbeb44bc3ab49882b551c5074",
+        "blockNumber": 0
       },
       {
         "id": "R7-009",
@@ -840,7 +948,9 @@
         "vehicleId": "",
         "location": "RT-Mart Nanshan::22.5300::113.9300",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:47:11Z"
+        "timestamp": "2026-04-28T13:24:06Z",
+        "txId": "4c2bf64f505032e7c0543325d9457af661a03a7c5f08a52f20fca612befca2be",
+        "blockNumber": 0
       }
     ],
     "SHIP008": [
@@ -855,7 +965,9 @@
         "vehicleId": "",
         "location": "Huizhou Farm::23.1115::114.4152",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:47:13Z"
+        "timestamp": "2026-04-28T13:24:07Z",
+        "txId": "af3f64c236937561e6ca387d9b38c702242bb2f6cd943d714c76cee86d9170d4",
+        "blockNumber": 0
       },
       {
         "id": "R8-002",
@@ -868,7 +980,9 @@
         "vehicleId": "",
         "location": "Huizhou Packing::23.1200::114.4200",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:47:14Z"
+        "timestamp": "2026-04-28T13:24:08Z",
+        "txId": "f9b24abd37965b97c3d36d3b3c32823d84c96a0e9271773dc3a2f4923df9b5a0",
+        "blockNumber": 0
       },
       {
         "id": "R8-003",
@@ -881,7 +995,9 @@
         "vehicleId": "粤C-66710",
         "location": "Huizhou Expressway::22.9500::114.2000",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:20Z"
+        "timestamp": "2026-04-28T13:24:08Z",
+        "txId": "e9a6ab60d44d1a664be05c81dc03e2198dbf1449aa81bd3dc05d3eb8b09f11f5",
+        "blockNumber": 0
       },
       {
         "id": "R8-004",
@@ -894,7 +1010,9 @@
         "vehicleId": "粤C-66710",
         "location": "Shenzhen Northeast::22.7000::114.1000",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T22:15:21Z"
+        "timestamp": "2026-04-28T13:24:09Z",
+        "txId": "8cdaf9ec920b67608e68d7b20fe408d2305920f6e1d296c6599ebf0e007c9b0f",
+        "blockNumber": 0
       },
       {
         "id": "R8-005",
@@ -907,7 +1025,9 @@
         "vehicleId": "",
         "location": "Shenzhen Distribution Center::22.5431::114.0579",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:47:17Z"
+        "timestamp": "2026-04-28T13:24:10Z",
+        "txId": "1d6fb27b6ad5c1c09b14c387c4a1ffb05d4a852a33ee036363a3b1c4e0b2027a",
+        "blockNumber": 0
       },
       {
         "id": "R8-006",
@@ -920,7 +1040,9 @@
         "vehicleId": "",
         "location": "Shenzhen Distribution Center::22.5431::114.0579",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:47:18Z"
+        "timestamp": "2026-04-28T13:24:10Z",
+        "txId": "779b1912594c6a04d2f101e5aee21b2f86001f03595ee17dfa5a379c6e7fa462",
+        "blockNumber": 0
       },
       {
         "id": "R8-007",
@@ -933,7 +1055,9 @@
         "vehicleId": "",
         "location": "MixC Mall Shenzhen::22.5400::114.0550",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:47:19Z"
+        "timestamp": "2026-04-28T13:24:11Z",
+        "txId": "9507a063bdf5c1873e66813ced6ace571002f82df9c14f751b28ca3e5faab8b1",
+        "blockNumber": 0
       },
       {
         "id": "R8-008",
@@ -946,7 +1070,9 @@
         "vehicleId": "",
         "location": "MixC Mall Shenzhen::22.5400::114.0550",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:47:20Z"
+        "timestamp": "2026-04-28T13:24:12Z",
+        "txId": "19f713d827539bad14e64774d58934c12887f954b896fd5b4883291579a80e5e",
+        "blockNumber": 0
       },
       {
         "id": "R8-009",
@@ -959,7 +1085,9 @@
         "vehicleId": "",
         "location": "MixC Mall Shenzhen::22.5400::114.0550",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:47:21Z"
+        "timestamp": "2026-04-28T13:24:13Z",
+        "txId": "6c277baad5d0af3e59b098fa8b258d7954348d6325ba26f04f08dc3a23cf68fb",
+        "blockNumber": 0
       }
     ],
     "SHIP009": [
@@ -974,7 +1102,9 @@
         "vehicleId": "",
         "location": "Maoming Farm::21.6618::110.9253",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:57:10Z"
+        "timestamp": "2026-04-28T13:24:13Z",
+        "txId": "b4f7147626d467a760aa259571d4b424a4eaae2e2adafae5ccbbedfe444e1efe",
+        "blockNumber": 0
       },
       {
         "id": "R9-002",
@@ -987,7 +1117,9 @@
         "vehicleId": "",
         "location": "Maoming Packing House::21.6750::110.9400",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:57:11Z"
+        "timestamp": "2026-04-28T13:24:14Z",
+        "txId": "50c04741ccbb82d12dff8f4be3be4907a5397de47979ec93abe4cd460c776e88",
+        "blockNumber": 0
       },
       {
         "id": "R9-003",
@@ -1000,7 +1132,9 @@
         "vehicleId": "粤B-88821",
         "location": "Maoming Highway S71::22.0000::110.9800",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:57:12Z"
+        "timestamp": "2026-04-28T13:24:15Z",
+        "txId": "ca327fb5c916e35fbc27570e82d70b2dc8375a5892c3388b6574d31fab59bd09",
+        "blockNumber": 0
       },
       {
         "id": "R9-004",
@@ -1013,7 +1147,9 @@
         "vehicleId": "粤B-88821",
         "location": "Yunfu Rest Stop::22.9279::111.6933",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:57:13Z"
+        "timestamp": "2026-04-28T13:24:15Z",
+        "txId": "d9374e85d7cdad67c30ac2e259c4178e0c30b5981a056fcf9700be8bbdd1a88a",
+        "blockNumber": 0
       },
       {
         "id": "R9-005",
@@ -1026,7 +1162,9 @@
         "vehicleId": "粤B-88821",
         "location": "Foshan Interchange::23.0218::113.1219",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:57:14Z"
+        "timestamp": "2026-04-28T13:24:16Z",
+        "txId": "183339b267b9e9c654a69c88cfaf0072a7188e3e41ec87e6f95ec766c5bb09d7",
+        "blockNumber": 0
       },
       {
         "id": "R9-006",
@@ -1039,7 +1177,9 @@
         "vehicleId": "",
         "location": "Guangzhou Cold Storage Hub::23.1291::113.2644",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:57:15Z"
+        "timestamp": "2026-04-28T13:24:17Z",
+        "txId": "62cec6d003dc92ea6a0dca353b15fded5519cc4988a6d31f9548dc8a3aaa7f3a",
+        "blockNumber": 0
       },
       {
         "id": "R9-007",
@@ -1052,7 +1192,9 @@
         "vehicleId": "",
         "location": "Guangzhou Cold Storage Hub::23.1291::113.2644",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:57:16Z"
+        "timestamp": "2026-04-28T13:24:18Z",
+        "txId": "926365ce384580a684d6776a10f9085ac7a18d6d2dcfbbf3625c03f1f9dc2a51",
+        "blockNumber": 0
       },
       {
         "id": "R9-008",
@@ -1065,7 +1207,9 @@
         "vehicleId": "粤A-32209",
         "location": "Guangshen Expressway::22.9000::113.5000",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:57:17Z"
+        "timestamp": "2026-04-28T13:24:18Z",
+        "txId": "3e4f314c27962c536d875fbb86888b02cbb870e03199f2d988eeca227fab4822",
+        "blockNumber": 0
       },
       {
         "id": "R9-009",
@@ -1078,7 +1222,9 @@
         "vehicleId": "粤A-32209",
         "location": "Dongguan Checkpoint::22.7500::113.7500",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:57:18Z"
+        "timestamp": "2026-04-28T13:24:19Z",
+        "txId": "1898dcb18136b524eea6455a9b8614f83c028a1cad1d0eca558e2e1d6fb38570",
+        "blockNumber": 0
       },
       {
         "id": "R9-010",
@@ -1091,7 +1237,9 @@
         "vehicleId": "",
         "location": "Vanguard Supermarket Futian::22.5200::114.0580",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:57:19Z"
+        "timestamp": "2026-04-28T13:24:20Z",
+        "txId": "7564b44378afa68737617ee38d9d78d75079167e2f326c7b01db6b41abe0d492",
+        "blockNumber": 0
       },
       {
         "id": "R9-011",
@@ -1104,7 +1252,9 @@
         "vehicleId": "",
         "location": "Vanguard Supermarket Futian::22.5200::114.0580",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:57:20Z"
+        "timestamp": "2026-04-28T13:24:20Z",
+        "txId": "cc1ebf75a03fcef7bc992cae31bb17a20269aa15d1eb6effa45053dc5c4b1cfe",
+        "blockNumber": 0
       }
     ],
     "SHIP010": [
@@ -1119,7 +1269,9 @@
         "vehicleId": "",
         "location": "Huizhou Farm::23.1115::114.4152",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:57:22Z"
+        "timestamp": "2026-04-28T13:24:21Z",
+        "txId": "5bfad0419ad9218fdcd1a6151cbe410a70d25303cbb288060797d0d24c263ebe",
+        "blockNumber": 0
       },
       {
         "id": "R10-002",
@@ -1132,7 +1284,9 @@
         "vehicleId": "粤C-55610",
         "location": "Huizhou Expressway::22.9500::114.2000",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:57:23Z"
+        "timestamp": "2026-04-28T13:24:22Z",
+        "txId": "b85411c4a0467e6c95814f17e2ac1091e2adafe7c46b6bfa8d22b634b8fcd422",
+        "blockNumber": 0
       },
       {
         "id": "R10-003",
@@ -1145,7 +1299,9 @@
         "vehicleId": "粤C-55610",
         "location": "Shenzhen Northeast::22.7000::114.1000",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:57:25Z"
+        "timestamp": "2026-04-28T13:24:23Z",
+        "txId": "676831c3b16a8ba23b53ad524d90b838905433c44d1cea23c30feb1ccada6e1c",
+        "blockNumber": 0
       },
       {
         "id": "R10-004",
@@ -1158,7 +1314,9 @@
         "vehicleId": "",
         "location": "Shenzhen Distribution Center::22.5431::114.0579",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:57:26Z"
+        "timestamp": "2026-04-28T13:24:23Z",
+        "txId": "88302e93bb146dd0c3aeb14c0c9d8e1e873b5c1d49a071a51667a4baaea9adca",
+        "blockNumber": 0
       },
       {
         "id": "R10-005",
@@ -1171,7 +1329,9 @@
         "vehicleId": "粤B-71133",
         "location": "Shenzhen Distribution Center::22.5431::114.0579",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:57:27Z"
+        "timestamp": "2026-04-28T13:24:24Z",
+        "txId": "3676fc6f4a7c75bdcfda76eac5494b5ba905d7817578a8fbb718640ed3fcbb72",
+        "blockNumber": 0
       },
       {
         "id": "R10-006",
@@ -1184,7 +1344,9 @@
         "vehicleId": "",
         "location": "RT-Mart Nanshan::22.5300::113.9300",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:57:28Z"
+        "timestamp": "2026-04-28T13:24:25Z",
+        "txId": "423b7e5f8f329ea7b9f5058bb64509cac7e399d79ebec4ceb60376d1fbafc7ec",
+        "blockNumber": 0
       },
       {
         "id": "R10-007",
@@ -1197,7 +1359,9 @@
         "vehicleId": "",
         "location": "RT-Mart Nanshan::22.5300::113.9300",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T20:57:29Z"
+        "timestamp": "2026-04-28T13:24:25Z",
+        "txId": "14f3e014b8620ae153f54d27a260cc4ebb580e66eaa69f5f78632e385cdd3f97",
+        "blockNumber": 0
       }
     ],
     "SHIP011": [
@@ -1212,7 +1376,9 @@
         "vehicleId": "",
         "location": "Maoming Farm::21.6618::110.9253",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T21:26:10Z"
+        "timestamp": "2026-04-28T13:24:26Z",
+        "txId": "b97b10889512b7d255c2f78994808d1202139c92ba7c04a2be7f4432402f15d0",
+        "blockNumber": 0
       },
       {
         "id": "S11-002",
@@ -1225,7 +1391,9 @@
         "vehicleId": "粤B-88821",
         "location": "Maoming Highway S71::22.0000::110.9800",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T21:26:11Z"
+        "timestamp": "2026-04-28T13:24:27Z",
+        "txId": "c9c28eaded88316c133b4d794fe4e7a236a037b958201e0cec38aea90321da80",
+        "blockNumber": 0
       },
       {
         "id": "S11-003",
@@ -1238,7 +1406,9 @@
         "vehicleId": "粤B-88821",
         "location": "Yunfu Rest Stop::22.9279::111.6933",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T21:26:12Z"
+        "timestamp": "2026-04-28T13:24:28Z",
+        "txId": "dce4ddb2804261e7a1a917bafd70e1fac4fe3c00a815f17b84a4c0c737bd5830",
+        "blockNumber": 0
       },
       {
         "id": "S11-004",
@@ -1251,7 +1421,9 @@
         "vehicleId": "",
         "location": "Guangzhou Cold Storage Hub::23.1291::113.2644",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T21:26:13Z"
+        "timestamp": "2026-04-28T13:24:28Z",
+        "txId": "c04b2ff381211fe98c1a6f3b16bf05fa551c372f559d7b4e7fad84dd6929f35a",
+        "blockNumber": 0
       },
       {
         "id": "S11-005",
@@ -1264,7 +1436,9 @@
         "vehicleId": "粤A-32209",
         "location": "Guangshen Expressway::22.9000::113.5000",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T21:26:14Z"
+        "timestamp": "2026-04-28T13:24:29Z",
+        "txId": "e3cd21b63e88fcc02b316bb359a0db6b9efb34fa1345d252291c3bcd4dd4d146",
+        "blockNumber": 0
       },
       {
         "id": "S11-006",
@@ -1277,7 +1451,9 @@
         "vehicleId": "",
         "location": "Vanguard Supermarket Futian::22.5200::114.0580",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T21:26:15Z"
+        "timestamp": "2026-04-28T13:24:30Z",
+        "txId": "95eb8fecf575f516d6379d180921f617a85718eb47ee53722b38a23d35b17c5d",
+        "blockNumber": 0
       }
     ],
     "SHIP012": [
@@ -1292,7 +1468,9 @@
         "vehicleId": "",
         "location": "Huizhou Farm::23.1115::114.4152",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T21:26:17Z"
+        "timestamp": "2026-04-28T13:24:31Z",
+        "txId": "90441c475cd1543e6a972b7503d10947f1f1da6def9c0d08af4bedef661db9b3",
+        "blockNumber": 0
       },
       {
         "id": "S12-002",
@@ -1305,7 +1483,9 @@
         "vehicleId": "粤C-55610",
         "location": "Huizhou Expressway::22.9500::114.2000",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T21:26:18Z"
+        "timestamp": "2026-04-28T13:24:31Z",
+        "txId": "988a2e3835724fb225e7d20a7ecb8e9b7d810c048498434cfeb4bf8ce2d956a7",
+        "blockNumber": 0
       },
       {
         "id": "S12-003",
@@ -1318,7 +1498,9 @@
         "vehicleId": "粤C-55610",
         "location": "Dongguan Checkpoint::22.7500::113.7500",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T21:26:19Z"
+        "timestamp": "2026-04-28T13:24:32Z",
+        "txId": "76afc919c871ab14ecb154adb7ddc4a620eaf18554701fbe3fa3a50861c7ccd6",
+        "blockNumber": 0
       }
     ],
     "SHIP013": [
@@ -1333,7 +1515,9 @@
         "vehicleId": "",
         "location": "Qingyuan Farm::23.6843::113.0513",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T21:26:21Z"
+        "timestamp": "2026-04-28T13:24:33Z",
+        "txId": "2b4ec246fa63d2f2fa3c60acdba0d29fc74de68be324345c8947026913357499",
+        "blockNumber": 0
       },
       {
         "id": "S13-002",
@@ -1346,7 +1530,9 @@
         "vehicleId": "粤B-71133",
         "location": "Guangqing Expressway::23.4000::113.1000",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T21:26:22Z"
+        "timestamp": "2026-04-28T13:24:33Z",
+        "txId": "988c68e0fef824555bf84eccfa792af55f977a9eadb0c6468bb20d241a53f525",
+        "blockNumber": 0
       },
       {
         "id": "S13-003",
@@ -1359,7 +1545,9 @@
         "vehicleId": "",
         "location": "Shenzhen Distribution Center::22.5431::114.0579",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T21:26:24Z"
+        "timestamp": "2026-04-28T13:24:34Z",
+        "txId": "d228c82bcf703438ab8ea0e532755cf00121ba467ff9d60f27c0d748b711eabc",
+        "blockNumber": 0
       },
       {
         "id": "S13-004",
@@ -1372,7 +1560,9 @@
         "vehicleId": "粤A-19920",
         "location": "Shenzhen Distribution Center::22.5431::114.0579",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T21:26:25Z"
+        "timestamp": "2026-04-28T13:24:35Z",
+        "txId": "262d58e9ee88190ddc668f11e3979e5377bcacf6a1dea0443341ec4c527682f3",
+        "blockNumber": 0
       },
       {
         "id": "S13-005",
@@ -1385,7 +1575,9 @@
         "vehicleId": "",
         "location": "MixC Mall Shenzhen::22.5400::114.0550",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T21:26:26Z"
+        "timestamp": "2026-04-28T13:24:36Z",
+        "txId": "28965b6f69320892e1cf5cae98e7537339f2609dcfa6618c59e0a135818c35da",
+        "blockNumber": 0
       }
     ],
     "SHIP014": [
@@ -1400,7 +1592,9 @@
         "vehicleId": "",
         "location": "Zhanjiang Farm::21.1947::110.3934",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T21:26:28Z"
+        "timestamp": "2026-04-28T13:24:36Z",
+        "txId": "bec6a7f6aad383dac941d401a1084599134d402eb227e87e706e2940f6c1e139",
+        "blockNumber": 0
       },
       {
         "id": "S14-002",
@@ -1413,7 +1607,9 @@
         "vehicleId": "粤K-00882",
         "location": "Maoming Highway S71::22.0000::110.9800",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T21:26:29Z"
+        "timestamp": "2026-04-28T13:24:37Z",
+        "txId": "34942536ba293b6f142aad34f2ba9ca817905a766de6ddbf63ad2788dfcf4386",
+        "blockNumber": 0
       },
       {
         "id": "S14-003",
@@ -1426,7 +1622,9 @@
         "vehicleId": "",
         "location": "Guangzhou Cold Storage Hub::23.1291::113.2644",
         "recordedBy": "Org1MSP",
-        "timestamp": "2026-04-27T21:26:30Z"
+        "timestamp": "2026-04-28T13:24:38Z",
+        "txId": "19fd0524d5ea6303c3a001060a9172b1a9947ac6991311cd6cf8ffa31e2d1056",
+        "blockNumber": 0
       }
     ]
   }
