@@ -45,3 +45,10 @@ export async function getReadings(shipmentId) {
   const demo = await loadDemo();
   return demo.readings[shipmentId] || [];
 }
+
+export async function getTwin(shipmentId) {
+  const data = await apiFetch(`/shipment/${shipmentId}/twin`);
+  if (data) return data;
+  const demo = await loadDemo();
+  return demo.twins?.[shipmentId] || null;
+}

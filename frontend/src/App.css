@@ -333,6 +333,41 @@ h2, h3, h4 { font-weight: 600; }
 .verify-ok { background: #d1fae5; color: #065f46; }
 .verify-pending { background: #fef9c3; color: #854d0e; }
 
+/* ── Digital Twin Panel ──────────────────────────────────────── */
+.dt-card { }
+.dt-subtitle { font-size: 0.7rem; color: #64748b; margin: 4px 0 16px; }
+.dt-top { display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; margin-bottom: 20px; }
+.dt-gauge-wrap { flex-shrink: 0; }
+.dt-stats { flex: 1; min-width: 200px; display: flex; flex-direction: column; gap: 12px; }
+
+/* RSL bar */
+.dt-rsl-wrap { display: flex; flex-direction: column; gap: 5px; }
+.dt-rsl-label { display: flex; justify-content: space-between; font-size: 0.72rem; }
+.dt-rsl-track { height: 8px; background: #f1f5f9; border-radius: 4px; overflow: hidden; }
+.dt-rsl-fill { height: 100%; border-radius: 4px; transition: width 0.5s; }
+.dt-rsl-sub { font-size: 0.65rem; color: #94a3b8; }
+
+/* Stat pills */
+.dt-stat-row { display: flex; gap: 12px; }
+.dt-stat { display: flex; flex-direction: column; gap: 2px; }
+.dt-stat-v { font-size: 1rem; font-weight: 700; color: #1e293b; }
+.dt-stat-v.warn { color: #ef4444; }
+.dt-stat-l { font-size: 0.63rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.04em; }
+
+/* Chart */
+.dt-chart-wrap { margin-top: 4px; }
+.dt-chart-label { font-size: 0.7rem; color: #64748b; margin-bottom: 6px; }
+.dt-chart-note { font-size: 0.65rem; color: #94a3b8; margin-top: 6px; }
+.dt-arrhenius-note {
+  margin-top: 12px;
+  font-size: 0.63rem;
+  color: #94a3b8;
+  background: #f8fafc;
+  border-radius: 6px;
+  padding: 7px 10px;
+  font-family: monospace;
+}
+
 /* ── Blockchain Detail Panel ─────────────────────────────────── */
 .bc-detail-card { display: flex; flex-direction: column; gap: 0; }
 .bc-divider { height: 1px; background: #f1f5f9; margin: 24px 0; }

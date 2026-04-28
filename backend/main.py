@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import fabric_client as fabric
 import edge_db
+import math
 
 app = FastAPI(title="FoodChain API")
 
@@ -119,3 +120,62 @@ def get_pending():
 @app.get("/health")
 def health():
     return {"status": "ok"}
+
+
+# --- Digital Twin endpoint ---
+
+# Arrhenius parameters for lychee
+_Ea  = 70000.0   # activation energy J/mol
+_R   = 8.314     # gas constant J/(mol·K)
+_T_ref = 275.15  # reference temp: 2°C in Kelvin
+_RSL_0 = 504.0   # shelf life at 2°C in hours (~21 days)
+_INTERVAL_H = 2.0  # assumed hours between readings
+
+def _k(T_celsius: float) -> float:
+    T = T_celsius + 273.15
+    return math.exp(-_Ea / _R * (1.0 / T - 1.0 / _T_ref))
+
+@app.get("/shipment/{shipment_id}/twin")
+def digital_twin(shipment_id: str):
+    try:
+        readings = fabric.get_readings_for_shipment(shipment_id)
+    except RuntimeError as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    if not readings:
+        raise HTTPException(status_code=404, detail="No readings found")
+
+    readings = sorted(readings, key=lambda r: r["timestamp"])
+
+    cumulative = 0.0
+    timeline = []
+    hours_lost = 0.0
+
+    for r in readings:
+        rate = _k(r["temperature"])
+        step = rate * _INTERVAL_H
+        cumulative += step
+        # hours lost = extra degradation beyond ideal (rate=1) conditions
+        hours_lost += max(0.0, (rate - 1.0) * _INTERVAL_H)
+        rsl = max(0.0, _RSL_0 - cumulative)
+        timeline.append({
+            "readingId":   r["id"],
+            "stage":       r["stage"],
+            "timestamp":   r["timestamp"],
+            "temperature": r["temperature"],
+            "rate":        round(rate, 3),
+            "rsl_hours":   round(rsl, 1),
+            "quality_pct": round(rsl / _RSL_0 * 100, 1),
+        })
+
+    last = timeline[-1]
+    return {
+        "shipmentId":       shipment_id,
+        "rsl_0_hours":      _RSL_0,
+        "rsl_0_days":       round(_RSL_0 / 24, 1),
+        "current_rsl_hours": last["rsl_hours"],
+        "current_rsl_days":  round(last["rsl_hours"] / 24, 1),
+        "current_quality_pct": last["quality_pct"],
+        "hours_lost":       round(hours_lost, 1),
+        "t_ref_celsius":    _T_ref - 273.15,
+        "timeline":         timeline,
+    }

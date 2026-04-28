@@ -3,6 +3,7 @@ import { getShipment, getReadings } from "./api";
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts";
 import ShipmentMap from "./ShipmentMap";
 import BlockchainDetail from "./BlockchainDetail";
+import DigitalTwin from "./DigitalTwin";
 import { useLang } from "./LangContext";
 
 const STAGES = ["farm", "truck", "warehouse", "supermarket"];
@@ -147,6 +148,9 @@ export default function ShipmentTracker({ shipmentId, onBack }) {
           </div>
         </div>
       )}
+
+      {/* Digital Twin */}
+      <DigitalTwin shipmentId={shipmentId} />
 
       {/* Blockchain Detail — pipeline + AoI + tx table */}
       {readings.length > 0 && <BlockchainDetail readings={readings} />}

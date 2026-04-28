@@ -1,6 +1,7 @@
 import subprocess
 import json
 import os
+import time
 from pathlib import Path
 
 NETWORK_DIR = Path.home() / "GitHub/foodBlockChain/fabric/fabric-samples/test-network"
@@ -34,10 +35,12 @@ def _invoke(function: str, args: list[str]) -> dict:
         "--peerAddresses", "localhost:9051", "--tlsRootCertFiles", ORG2_CA,
         "-c", args_json,
     ]
+    t0 = time.time()
     result = subprocess.run(cmd, env=BASE_ENV, capture_output=True, text=True)
+    latency_ms = (time.time() - t0) * 1000
     if result.returncode != 0:
         raise RuntimeError(f"Invoke failed: {result.stderr}")
-    return {"status": "ok"}
+    return {"status": "ok", "latency_ms": round(latency_ms, 1)}
 
 
 def _query(function: str, args: list[str]) -> dict | list:
