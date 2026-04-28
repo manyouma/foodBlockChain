@@ -25,6 +25,8 @@ type SensorReading struct {
 	Location    string  `json:"location"`
 	RecordedBy  string  `json:"recordedBy"`
 	Timestamp   string  `json:"timestamp"`
+	TxID        string  `json:"txId"`
+	BlockNumber uint64  `json:"blockNumber"`
 }
 
 // A shipment groups all readings for one batch of lychee
@@ -64,6 +66,10 @@ func (s *SmartContract) RecordReading(ctx contractapi.TransactionContextInterfac
 		return fmt.Errorf("failed to get caller identity: %v", err)
 	}
 
+	txID := ctx.GetStub().GetTxID()
+
+	// BlockNumber is not available during execution; resolved post-commit via event.
+	// We store 0 as a placeholder — the backend can enrich this via block events if needed.
 	reading := SensorReading{
 		ID:          id,
 		ShipmentID:  shipmentID,
@@ -76,6 +82,8 @@ func (s *SmartContract) RecordReading(ctx contractapi.TransactionContextInterfac
 		Location:    location,
 		RecordedBy:  mspID,
 		Timestamp:   time.Now().UTC().Format(time.RFC3339),
+		TxID:        txID,
+		BlockNumber: 0,
 	}
 	data, _ := json.Marshal(reading)
 	return ctx.GetStub().PutState("READING_"+id, data)
