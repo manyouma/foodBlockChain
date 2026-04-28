@@ -1627,5 +1627,1066 @@
         "blockNumber": 0
       }
     ]
+  },
+  "twins": {
+    "SHIP001": {
+      "shipmentId": "SHIP001",
+      "rsl_0_hours": 504.0,
+      "rsl_0_days": 21.0,
+      "current_rsl_hours": 489.1,
+      "current_rsl_days": 20.4,
+      "current_quality_pct": 97.0,
+      "hours_lost": 2.9,
+      "t_ref_celsius": 2.0,
+      "timeline": [
+        {
+          "readingId": "R1-002",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:23:27Z",
+          "temperature": 5.2,
+          "rate": 1.422,
+          "rsl_hours": 501.2,
+          "quality_pct": 99.4
+        },
+        {
+          "readingId": "R1-003",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:23:28Z",
+          "temperature": 2.4,
+          "rate": 1.045,
+          "rsl_hours": 499.1,
+          "quality_pct": 99.0
+        },
+        {
+          "readingId": "R1-004",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:23:29Z",
+          "temperature": 2.1,
+          "rate": 1.011,
+          "rsl_hours": 497.0,
+          "quality_pct": 98.6
+        },
+        {
+          "readingId": "R1-005",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:23:29Z",
+          "temperature": 4.9,
+          "rate": 1.376,
+          "rsl_hours": 494.3,
+          "quality_pct": 98.1
+        },
+        {
+          "readingId": "R1-006",
+          "stage": "supermarket",
+          "timestamp": "2026-04-28T13:23:30Z",
+          "temperature": 4.3,
+          "rate": 1.289,
+          "rsl_hours": 491.7,
+          "quality_pct": 97.6
+        },
+        {
+          "readingId": "READ001",
+          "stage": "farm",
+          "timestamp": "2026-04-28T13:23:31Z",
+          "temperature": 4.5,
+          "rate": 1.317,
+          "rsl_hours": 489.1,
+          "quality_pct": 97.0
+        }
+      ]
+    },
+    "SHIP002": {
+      "shipmentId": "SHIP002",
+      "rsl_0_hours": 504.0,
+      "rsl_0_days": 21.0,
+      "current_rsl_hours": 462.2,
+      "current_rsl_days": 19.3,
+      "current_quality_pct": 91.7,
+      "hours_lost": 7.8,
+      "t_ref_celsius": 2.0,
+      "timeline": [
+        {
+          "readingId": "R2-001",
+          "stage": "farm",
+          "timestamp": "2026-04-28T13:23:31Z",
+          "temperature": 3.8,
+          "rate": 1.22,
+          "rsl_hours": 501.6,
+          "quality_pct": 99.5
+        },
+        {
+          "readingId": "R2-002",
+          "stage": "farm",
+          "timestamp": "2026-04-28T13:23:32Z",
+          "temperature": 4.1,
+          "rate": 1.261,
+          "rsl_hours": 499.0,
+          "quality_pct": 99.0
+        },
+        {
+          "readingId": "R2-003",
+          "stage": "farm",
+          "timestamp": "2026-04-28T13:23:33Z",
+          "temperature": 3.9,
+          "rate": 1.233,
+          "rsl_hours": 496.6,
+          "quality_pct": 98.5
+        },
+        {
+          "readingId": "R2-004",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:23:34Z",
+          "temperature": 4.5,
+          "rate": 1.317,
+          "rsl_hours": 493.9,
+          "quality_pct": 98.0
+        },
+        {
+          "readingId": "R2-005",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:23:34Z",
+          "temperature": 5.1,
+          "rate": 1.406,
+          "rsl_hours": 491.1,
+          "quality_pct": 97.4
+        },
+        {
+          "readingId": "R2-006",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:23:35Z",
+          "temperature": 4.8,
+          "rate": 1.361,
+          "rsl_hours": 488.4,
+          "quality_pct": 96.9
+        },
+        {
+          "readingId": "R2-007",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:23:36Z",
+          "temperature": 5.3,
+          "rate": 1.437,
+          "rsl_hours": 485.5,
+          "quality_pct": 96.3
+        },
+        {
+          "readingId": "R2-008",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:23:36Z",
+          "temperature": 2.1,
+          "rate": 1.011,
+          "rsl_hours": 483.5,
+          "quality_pct": 95.9
+        },
+        {
+          "readingId": "R2-009",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:23:37Z",
+          "temperature": 2.3,
+          "rate": 1.034,
+          "rsl_hours": 481.4,
+          "quality_pct": 95.5
+        },
+        {
+          "readingId": "R2-010",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:23:38Z",
+          "temperature": 2,
+          "rate": 1.0,
+          "rsl_hours": 479.4,
+          "quality_pct": 95.1
+        },
+        {
+          "readingId": "R2-011",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:23:39Z",
+          "temperature": 4.2,
+          "rate": 1.275,
+          "rsl_hours": 476.9,
+          "quality_pct": 94.6
+        },
+        {
+          "readingId": "R2-012",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:23:39Z",
+          "temperature": 4.7,
+          "rate": 1.346,
+          "rsl_hours": 474.2,
+          "quality_pct": 94.1
+        },
+        {
+          "readingId": "R2-013",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:23:40Z",
+          "temperature": 5,
+          "rate": 1.391,
+          "rsl_hours": 471.4,
+          "quality_pct": 93.5
+        },
+        {
+          "readingId": "R2-014",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:23:41Z",
+          "temperature": 2.5,
+          "rate": 1.057,
+          "rsl_hours": 469.3,
+          "quality_pct": 93.1
+        },
+        {
+          "readingId": "R2-015",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:23:41Z",
+          "temperature": 2.2,
+          "rate": 1.022,
+          "rsl_hours": 467.3,
+          "quality_pct": 92.7
+        },
+        {
+          "readingId": "R2-016",
+          "stage": "supermarket",
+          "timestamp": "2026-04-28T13:23:42Z",
+          "temperature": 4,
+          "rate": 1.247,
+          "rsl_hours": 464.8,
+          "quality_pct": 92.2
+        },
+        {
+          "readingId": "R2-017",
+          "stage": "supermarket",
+          "timestamp": "2026-04-28T13:23:43Z",
+          "temperature": 4.2,
+          "rate": 1.275,
+          "rsl_hours": 462.2,
+          "quality_pct": 91.7
+        }
+      ]
+    },
+    "SHIP003": {
+      "shipmentId": "SHIP003",
+      "rsl_0_hours": 504.0,
+      "rsl_0_days": 21.0,
+      "current_rsl_hours": 496.8,
+      "current_rsl_days": 20.7,
+      "current_quality_pct": 98.6,
+      "hours_lost": 1.2,
+      "t_ref_celsius": 2.0,
+      "timeline": [
+        {
+          "readingId": "R3-001",
+          "stage": "farm",
+          "timestamp": "2026-04-28T13:23:44Z",
+          "temperature": 3.5,
+          "rate": 1.18,
+          "rsl_hours": 501.6,
+          "quality_pct": 99.5
+        },
+        {
+          "readingId": "R3-002",
+          "stage": "farm",
+          "timestamp": "2026-04-28T13:23:44Z",
+          "temperature": 3.7,
+          "rate": 1.207,
+          "rsl_hours": 499.2,
+          "quality_pct": 99.1
+        },
+        {
+          "readingId": "R3-003",
+          "stage": "farm",
+          "timestamp": "2026-04-28T13:23:45Z",
+          "temperature": 3.6,
+          "rate": 1.194,
+          "rsl_hours": 496.8,
+          "quality_pct": 98.6
+        }
+      ]
+    },
+    "SHIP004": {
+      "shipmentId": "SHIP004",
+      "rsl_0_hours": 504.0,
+      "rsl_0_days": 21.0,
+      "current_rsl_hours": 467.5,
+      "current_rsl_days": 19.5,
+      "current_quality_pct": 92.8,
+      "hours_lost": 22.5,
+      "t_ref_celsius": 2.0,
+      "timeline": [
+        {
+          "readingId": "R4-001",
+          "stage": "farm",
+          "timestamp": "2026-04-28T13:23:46Z",
+          "temperature": 4,
+          "rate": 1.247,
+          "rsl_hours": 501.5,
+          "quality_pct": 99.5
+        },
+        {
+          "readingId": "R4-002",
+          "stage": "farm",
+          "timestamp": "2026-04-28T13:23:47Z",
+          "temperature": 4.2,
+          "rate": 1.275,
+          "rsl_hours": 499.0,
+          "quality_pct": 99.0
+        },
+        {
+          "readingId": "R4-003",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:23:47Z",
+          "temperature": 5.1,
+          "rate": 1.406,
+          "rsl_hours": 496.1,
+          "quality_pct": 98.4
+        },
+        {
+          "readingId": "R4-004",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:23:48Z",
+          "temperature": 9.4,
+          "rate": 2.229,
+          "rsl_hours": 491.7,
+          "quality_pct": 97.6
+        },
+        {
+          "readingId": "R4-005",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:23:49Z",
+          "temperature": 14.8,
+          "rate": 3.897,
+          "rsl_hours": 483.9,
+          "quality_pct": 96.0
+        },
+        {
+          "readingId": "R4-006",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:23:49Z",
+          "temperature": 18.2,
+          "rate": 5.482,
+          "rsl_hours": 472.9,
+          "quality_pct": 93.8
+        },
+        {
+          "readingId": "R4-007",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:23:50Z",
+          "temperature": 11.3,
+          "rate": 2.72,
+          "rsl_hours": 467.5,
+          "quality_pct": 92.8
+        }
+      ]
+    },
+    "SHIP005": {
+      "shipmentId": "SHIP005",
+      "rsl_0_hours": 504.0,
+      "rsl_0_days": 21.0,
+      "current_rsl_hours": 487.6,
+      "current_rsl_days": 20.3,
+      "current_quality_pct": 96.7,
+      "hours_lost": 2.4,
+      "t_ref_celsius": 2.0,
+      "timeline": [
+        {
+          "readingId": "R5-001",
+          "stage": "farm",
+          "timestamp": "2026-04-28T13:23:51Z",
+          "temperature": 3.9,
+          "rate": 1.233,
+          "rsl_hours": 501.5,
+          "quality_pct": 99.5
+        },
+        {
+          "readingId": "R5-002",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:23:52Z",
+          "temperature": 4.8,
+          "rate": 1.361,
+          "rsl_hours": 498.8,
+          "quality_pct": 99.0
+        },
+        {
+          "readingId": "R5-003",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:23:52Z",
+          "temperature": 5.2,
+          "rate": 1.422,
+          "rsl_hours": 496.0,
+          "quality_pct": 98.4
+        },
+        {
+          "readingId": "R5-004",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:23:53Z",
+          "temperature": 2.3,
+          "rate": 1.034,
+          "rsl_hours": 493.9,
+          "quality_pct": 98.0
+        },
+        {
+          "readingId": "R5-005",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:23:54Z",
+          "temperature": 2.5,
+          "rate": 1.057,
+          "rsl_hours": 491.8,
+          "quality_pct": 97.6
+        },
+        {
+          "readingId": "R5-006",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:23:55Z",
+          "temperature": 2.4,
+          "rate": 1.045,
+          "rsl_hours": 489.7,
+          "quality_pct": 97.2
+        },
+        {
+          "readingId": "R5-007",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:23:55Z",
+          "temperature": 2.6,
+          "rate": 1.069,
+          "rsl_hours": 487.6,
+          "quality_pct": 96.7
+        }
+      ]
+    },
+    "SHIP006": {
+      "shipmentId": "SHIP006",
+      "rsl_0_hours": 504.0,
+      "rsl_0_days": 21.0,
+      "current_rsl_hours": 490.0,
+      "current_rsl_days": 20.4,
+      "current_quality_pct": 97.2,
+      "hours_lost": 2.0,
+      "t_ref_celsius": 2.0,
+      "timeline": [
+        {
+          "readingId": "R6-001",
+          "stage": "farm",
+          "timestamp": "2026-04-28T13:23:56Z",
+          "temperature": 3.8,
+          "rate": 1.22,
+          "rsl_hours": 501.6,
+          "quality_pct": 99.5
+        },
+        {
+          "readingId": "R6-002",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:23:57Z",
+          "temperature": 4.6,
+          "rate": 1.332,
+          "rsl_hours": 498.9,
+          "quality_pct": 99.0
+        },
+        {
+          "readingId": "R6-003",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:23:57Z",
+          "temperature": 5,
+          "rate": 1.391,
+          "rsl_hours": 496.1,
+          "quality_pct": 98.4
+        },
+        {
+          "readingId": "R6-004",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:23:58Z",
+          "temperature": 2.2,
+          "rate": 1.022,
+          "rsl_hours": 494.1,
+          "quality_pct": 98.0
+        },
+        {
+          "readingId": "R6-005",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:23:59Z",
+          "temperature": 2,
+          "rate": 1.0,
+          "rsl_hours": 492.1,
+          "quality_pct": 97.6
+        },
+        {
+          "readingId": "R6-006",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:24:00Z",
+          "temperature": 2.1,
+          "rate": 1.011,
+          "rsl_hours": 490.0,
+          "quality_pct": 97.2
+        }
+      ]
+    },
+    "SHIP007": {
+      "shipmentId": "SHIP007",
+      "rsl_0_hours": 504.0,
+      "rsl_0_days": 21.0,
+      "current_rsl_hours": 480.2,
+      "current_rsl_days": 20.0,
+      "current_quality_pct": 95.3,
+      "hours_lost": 5.8,
+      "t_ref_celsius": 2.0,
+      "timeline": [
+        {
+          "readingId": "R7-001",
+          "stage": "farm",
+          "timestamp": "2026-04-28T13:24:00Z",
+          "temperature": 4.1,
+          "rate": 1.261,
+          "rsl_hours": 501.5,
+          "quality_pct": 99.5
+        },
+        {
+          "readingId": "R7-002",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:01Z",
+          "temperature": 5,
+          "rate": 1.391,
+          "rsl_hours": 498.7,
+          "quality_pct": 98.9
+        },
+        {
+          "readingId": "R7-003",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:02Z",
+          "temperature": 5.4,
+          "rate": 1.453,
+          "rsl_hours": 495.8,
+          "quality_pct": 98.4
+        },
+        {
+          "readingId": "R7-004",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:03Z",
+          "temperature": 5.1,
+          "rate": 1.406,
+          "rsl_hours": 493.0,
+          "quality_pct": 97.8
+        },
+        {
+          "readingId": "R7-005",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:03Z",
+          "temperature": 4.9,
+          "rate": 1.376,
+          "rsl_hours": 490.2,
+          "quality_pct": 97.3
+        },
+        {
+          "readingId": "R7-006",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:04Z",
+          "temperature": 5.2,
+          "rate": 1.422,
+          "rsl_hours": 487.4,
+          "quality_pct": 96.7
+        },
+        {
+          "readingId": "R7-007",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:24:05Z",
+          "temperature": 2.3,
+          "rate": 1.034,
+          "rsl_hours": 485.3,
+          "quality_pct": 96.3
+        },
+        {
+          "readingId": "R7-008",
+          "stage": "supermarket",
+          "timestamp": "2026-04-28T13:24:05Z",
+          "temperature": 4.1,
+          "rate": 1.261,
+          "rsl_hours": 482.8,
+          "quality_pct": 95.8
+        },
+        {
+          "readingId": "R7-009",
+          "stage": "supermarket",
+          "timestamp": "2026-04-28T13:24:06Z",
+          "temperature": 4.3,
+          "rate": 1.289,
+          "rsl_hours": 480.2,
+          "quality_pct": 95.3
+        }
+      ]
+    },
+    "SHIP008": {
+      "shipmentId": "SHIP008",
+      "rsl_0_hours": 504.0,
+      "rsl_0_days": 21.0,
+      "current_rsl_hours": 482.1,
+      "current_rsl_days": 20.1,
+      "current_quality_pct": 95.7,
+      "hours_lost": 3.9,
+      "t_ref_celsius": 2.0,
+      "timeline": [
+        {
+          "readingId": "R8-001",
+          "stage": "farm",
+          "timestamp": "2026-04-28T13:24:07Z",
+          "temperature": 3.7,
+          "rate": 1.207,
+          "rsl_hours": 501.6,
+          "quality_pct": 99.5
+        },
+        {
+          "readingId": "R8-002",
+          "stage": "farm",
+          "timestamp": "2026-04-28T13:24:08Z",
+          "temperature": 3.9,
+          "rate": 1.233,
+          "rsl_hours": 499.1,
+          "quality_pct": 99.0
+        },
+        {
+          "readingId": "R8-003",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:08Z",
+          "temperature": 4.5,
+          "rate": 1.317,
+          "rsl_hours": 496.5,
+          "quality_pct": 98.5
+        },
+        {
+          "readingId": "R8-004",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:09Z",
+          "temperature": 4.9,
+          "rate": 1.376,
+          "rsl_hours": 493.7,
+          "quality_pct": 98.0
+        },
+        {
+          "readingId": "R8-005",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:24:10Z",
+          "temperature": 2.1,
+          "rate": 1.011,
+          "rsl_hours": 491.7,
+          "quality_pct": 97.6
+        },
+        {
+          "readingId": "R8-006",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:24:10Z",
+          "temperature": 2.3,
+          "rate": 1.034,
+          "rsl_hours": 489.6,
+          "quality_pct": 97.2
+        },
+        {
+          "readingId": "R8-007",
+          "stage": "supermarket",
+          "timestamp": "2026-04-28T13:24:11Z",
+          "temperature": 3.9,
+          "rate": 1.233,
+          "rsl_hours": 487.2,
+          "quality_pct": 96.7
+        },
+        {
+          "readingId": "R8-008",
+          "stage": "supermarket",
+          "timestamp": "2026-04-28T13:24:12Z",
+          "temperature": 4,
+          "rate": 1.247,
+          "rsl_hours": 484.7,
+          "quality_pct": 96.2
+        },
+        {
+          "readingId": "R8-009",
+          "stage": "supermarket",
+          "timestamp": "2026-04-28T13:24:13Z",
+          "temperature": 4.2,
+          "rate": 1.275,
+          "rsl_hours": 482.1,
+          "quality_pct": 95.7
+        }
+      ]
+    },
+    "SHIP009": {
+      "shipmentId": "SHIP009",
+      "rsl_0_hours": 504.0,
+      "rsl_0_days": 21.0,
+      "current_rsl_hours": 476.3,
+      "current_rsl_days": 19.8,
+      "current_quality_pct": 94.5,
+      "hours_lost": 5.7,
+      "t_ref_celsius": 2.0,
+      "timeline": [
+        {
+          "readingId": "R9-001",
+          "stage": "farm",
+          "timestamp": "2026-04-28T13:24:13Z",
+          "temperature": 3.8,
+          "rate": 1.22,
+          "rsl_hours": 501.6,
+          "quality_pct": 99.5
+        },
+        {
+          "readingId": "R9-002",
+          "stage": "farm",
+          "timestamp": "2026-04-28T13:24:14Z",
+          "temperature": 4,
+          "rate": 1.247,
+          "rsl_hours": 499.1,
+          "quality_pct": 99.0
+        },
+        {
+          "readingId": "R9-003",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:15Z",
+          "temperature": 4.6,
+          "rate": 1.332,
+          "rsl_hours": 496.4,
+          "quality_pct": 98.5
+        },
+        {
+          "readingId": "R9-004",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:15Z",
+          "temperature": 5,
+          "rate": 1.391,
+          "rsl_hours": 493.6,
+          "quality_pct": 97.9
+        },
+        {
+          "readingId": "R9-005",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:16Z",
+          "temperature": 5.3,
+          "rate": 1.437,
+          "rsl_hours": 490.7,
+          "quality_pct": 97.4
+        },
+        {
+          "readingId": "R9-006",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:24:17Z",
+          "temperature": 2.2,
+          "rate": 1.022,
+          "rsl_hours": 488.7,
+          "quality_pct": 97.0
+        },
+        {
+          "readingId": "R9-007",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:24:18Z",
+          "temperature": 2,
+          "rate": 1.0,
+          "rsl_hours": 486.7,
+          "quality_pct": 96.6
+        },
+        {
+          "readingId": "R9-008",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:18Z",
+          "temperature": 4.5,
+          "rate": 1.317,
+          "rsl_hours": 484.1,
+          "quality_pct": 96.0
+        },
+        {
+          "readingId": "R9-009",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:19Z",
+          "temperature": 4.8,
+          "rate": 1.361,
+          "rsl_hours": 481.3,
+          "quality_pct": 95.5
+        },
+        {
+          "readingId": "R9-010",
+          "stage": "supermarket",
+          "timestamp": "2026-04-28T13:24:20Z",
+          "temperature": 4,
+          "rate": 1.247,
+          "rsl_hours": 478.9,
+          "quality_pct": 95.0
+        },
+        {
+          "readingId": "R9-011",
+          "stage": "supermarket",
+          "timestamp": "2026-04-28T13:24:20Z",
+          "temperature": 4.2,
+          "rate": 1.275,
+          "rsl_hours": 476.3,
+          "quality_pct": 94.5
+        }
+      ]
+    },
+    "SHIP010": {
+      "shipmentId": "SHIP010",
+      "rsl_0_hours": 504.0,
+      "rsl_0_days": 21.0,
+      "current_rsl_hours": 486.3,
+      "current_rsl_days": 20.3,
+      "current_quality_pct": 96.5,
+      "hours_lost": 3.7,
+      "t_ref_celsius": 2.0,
+      "timeline": [
+        {
+          "readingId": "R10-001",
+          "stage": "farm",
+          "timestamp": "2026-04-28T13:24:21Z",
+          "temperature": 3.9,
+          "rate": 1.233,
+          "rsl_hours": 501.5,
+          "quality_pct": 99.5
+        },
+        {
+          "readingId": "R10-002",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:22Z",
+          "temperature": 4.7,
+          "rate": 1.346,
+          "rsl_hours": 498.8,
+          "quality_pct": 99.0
+        },
+        {
+          "readingId": "R10-003",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:23Z",
+          "temperature": 5.1,
+          "rate": 1.406,
+          "rsl_hours": 496.0,
+          "quality_pct": 98.4
+        },
+        {
+          "readingId": "R10-004",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:24:23Z",
+          "temperature": 2.3,
+          "rate": 1.034,
+          "rsl_hours": 494.0,
+          "quality_pct": 98.0
+        },
+        {
+          "readingId": "R10-005",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:24Z",
+          "temperature": 4.4,
+          "rate": 1.303,
+          "rsl_hours": 491.4,
+          "quality_pct": 97.5
+        },
+        {
+          "readingId": "R10-006",
+          "stage": "supermarket",
+          "timestamp": "2026-04-28T13:24:25Z",
+          "temperature": 4.1,
+          "rate": 1.261,
+          "rsl_hours": 488.8,
+          "quality_pct": 97.0
+        },
+        {
+          "readingId": "R10-007",
+          "stage": "supermarket",
+          "timestamp": "2026-04-28T13:24:25Z",
+          "temperature": 4.3,
+          "rate": 1.289,
+          "rsl_hours": 486.3,
+          "quality_pct": 96.5
+        }
+      ]
+    },
+    "SHIP011": {
+      "shipmentId": "SHIP011",
+      "rsl_0_hours": 504.0,
+      "rsl_0_days": 21.0,
+      "current_rsl_hours": 488.9,
+      "current_rsl_days": 20.4,
+      "current_quality_pct": 97.0,
+      "hours_lost": 3.1,
+      "t_ref_celsius": 2.0,
+      "timeline": [
+        {
+          "readingId": "S11-001",
+          "stage": "farm",
+          "timestamp": "2026-04-28T13:24:26Z",
+          "temperature": 3.8,
+          "rate": 1.22,
+          "rsl_hours": 501.6,
+          "quality_pct": 99.5
+        },
+        {
+          "readingId": "S11-002",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:27Z",
+          "temperature": 4.7,
+          "rate": 1.346,
+          "rsl_hours": 498.9,
+          "quality_pct": 99.0
+        },
+        {
+          "readingId": "S11-003",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:28Z",
+          "temperature": 5.1,
+          "rate": 1.406,
+          "rsl_hours": 496.1,
+          "quality_pct": 98.4
+        },
+        {
+          "readingId": "S11-004",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:24:28Z",
+          "temperature": 2.2,
+          "rate": 1.022,
+          "rsl_hours": 494.0,
+          "quality_pct": 98.0
+        },
+        {
+          "readingId": "S11-005",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:29Z",
+          "temperature": 4.5,
+          "rate": 1.317,
+          "rsl_hours": 491.4,
+          "quality_pct": 97.5
+        },
+        {
+          "readingId": "S11-006",
+          "stage": "supermarket",
+          "timestamp": "2026-04-28T13:24:30Z",
+          "temperature": 4,
+          "rate": 1.247,
+          "rsl_hours": 488.9,
+          "quality_pct": 97.0
+        }
+      ]
+    },
+    "SHIP012": {
+      "shipmentId": "SHIP012",
+      "rsl_0_hours": 504.0,
+      "rsl_0_days": 21.0,
+      "current_rsl_hours": 496.0,
+      "current_rsl_days": 20.7,
+      "current_quality_pct": 98.4,
+      "hours_lost": 2.0,
+      "t_ref_celsius": 2.0,
+      "timeline": [
+        {
+          "readingId": "S12-001",
+          "stage": "farm",
+          "timestamp": "2026-04-28T13:24:31Z",
+          "temperature": 3.9,
+          "rate": 1.233,
+          "rsl_hours": 501.5,
+          "quality_pct": 99.5
+        },
+        {
+          "readingId": "S12-002",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:31Z",
+          "temperature": 4.8,
+          "rate": 1.361,
+          "rsl_hours": 498.8,
+          "quality_pct": 99.0
+        },
+        {
+          "readingId": "S12-003",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:32Z",
+          "temperature": 5.2,
+          "rate": 1.422,
+          "rsl_hours": 496.0,
+          "quality_pct": 98.4
+        }
+      ]
+    },
+    "SHIP013": {
+      "shipmentId": "SHIP013",
+      "rsl_0_hours": 504.0,
+      "rsl_0_days": 21.0,
+      "current_rsl_hours": 491.7,
+      "current_rsl_days": 20.5,
+      "current_quality_pct": 97.6,
+      "hours_lost": 2.3,
+      "t_ref_celsius": 2.0,
+      "timeline": [
+        {
+          "readingId": "S13-001",
+          "stage": "farm",
+          "timestamp": "2026-04-28T13:24:33Z",
+          "temperature": 3.7,
+          "rate": 1.207,
+          "rsl_hours": 501.6,
+          "quality_pct": 99.5
+        },
+        {
+          "readingId": "S13-002",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:33Z",
+          "temperature": 4.9,
+          "rate": 1.376,
+          "rsl_hours": 498.8,
+          "quality_pct": 99.0
+        },
+        {
+          "readingId": "S13-003",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:24:34Z",
+          "temperature": 2.1,
+          "rate": 1.011,
+          "rsl_hours": 496.8,
+          "quality_pct": 98.6
+        },
+        {
+          "readingId": "S13-004",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:35Z",
+          "temperature": 4.4,
+          "rate": 1.303,
+          "rsl_hours": 494.2,
+          "quality_pct": 98.1
+        },
+        {
+          "readingId": "S13-005",
+          "stage": "supermarket",
+          "timestamp": "2026-04-28T13:24:36Z",
+          "temperature": 4.1,
+          "rate": 1.261,
+          "rsl_hours": 491.7,
+          "quality_pct": 97.6
+        }
+      ]
+    },
+    "SHIP014": {
+      "shipmentId": "SHIP014",
+      "rsl_0_hours": 504.0,
+      "rsl_0_days": 21.0,
+      "current_rsl_hours": 496.9,
+      "current_rsl_days": 20.7,
+      "current_quality_pct": 98.6,
+      "hours_lost": 1.1,
+      "t_ref_celsius": 2.0,
+      "timeline": [
+        {
+          "readingId": "S14-001",
+          "stage": "farm",
+          "timestamp": "2026-04-28T13:24:36Z",
+          "temperature": 3.6,
+          "rate": 1.194,
+          "rsl_hours": 501.6,
+          "quality_pct": 99.5
+        },
+        {
+          "readingId": "S14-002",
+          "stage": "truck",
+          "timestamp": "2026-04-28T13:24:37Z",
+          "temperature": 4.6,
+          "rate": 1.332,
+          "rsl_hours": 498.9,
+          "quality_pct": 99.0
+        },
+        {
+          "readingId": "S14-003",
+          "stage": "warehouse",
+          "timestamp": "2026-04-28T13:24:38Z",
+          "temperature": 2,
+          "rate": 1.0,
+          "rsl_hours": 496.9,
+          "quality_pct": 98.6
+        }
+      ]
+    }
   }
 }
